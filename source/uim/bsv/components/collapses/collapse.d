@@ -1,0 +1,19 @@
+﻿module uim.bsv.components.collapses.collapse;
+
+import uim.bsv;
+
+class DBSVCollapse : DBSVComponent {
+	this() {
+		super(); 
+		
+		_name = "bsv-collapse";
+		_render = initVueVars~
+			`content.push(this.$slots.default);`~ 
+				createVueElement("a", ["collapse"]);
+	}
+}
+auto BSVCollapse() { return new DBSVCollapse; }
+
+unittest {
+	writeln("Testing ", __MODULE__);	
+}	

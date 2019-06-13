@@ -1,0 +1,30 @@
+{
+	"name": "bsv",
+	"authors": [
+		"uim"
+	],
+	"description": "A minimal D application.",
+	"copyright": "Copyright © 2018, uim",
+	"license": "proprietary",
+	"targetType": "library",
+	"sourcePaths": [
+		"../core",
+		"../oop",
+		"../js",
+		"../web",
+		"../html",
+		"../vue",
+		"../bs4",
+		"./"
+	],
+	"importPaths": [
+		"../core",
+		"../oop",
+		"../js",
+		"../web",
+		"../html",
+		"../vue",
+		"../bs4",
+		"./"
+	]
+}
