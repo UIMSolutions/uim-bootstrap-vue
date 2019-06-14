@@ -6,7 +6,7 @@ public import uim.oop;
 public import uim.web;
 public import uim.html;
 public import uim.vue;
-public import uim.bs4;
+public import uim.bootstrap;
 public import uim.js;
 
 public import uim.bsv.layout;
