@@ -11,6 +11,8 @@
 		"uim-oop": "~>0.19.6",
 		"uim-web": "~>0.19.6",
 		"uim-html": "~>0.19.6",
-		"uim-bootstrap": "~>0.19.6"
+		"uim-bootstrap": "~>0.19.6",
+		"uim-javascript": "~>0.19.6",
+		"uim-vue": "~>0.19.6"
 	}
 }
