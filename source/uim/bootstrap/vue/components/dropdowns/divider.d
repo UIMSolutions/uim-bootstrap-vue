@@ -15,5 +15,5 @@ auto BSVDropdownDivider() { return new DBSVDropdownDivider; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	
-	assert(BSVDropdownItem.name == "bsv-dropdown-header");
+	assert(BSVDropdownDivider.name == "bsv-dropdown-header");
 }	

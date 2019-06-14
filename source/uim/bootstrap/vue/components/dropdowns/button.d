@@ -17,5 +17,5 @@ auto BSVDropdownButton() { return new DBSVDropdownButton; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	
-	assert(BSVDropdownItem.name == "bsv-dropdown-item");
+	assert(BSVDropdownButton.name == "bsv-dropdown-item");
 }	
