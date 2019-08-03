@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.carousels;
+﻿module uim.bootstrap.vue.components.carousels;
 
-public import uim.bsv.components.carousels.carousel;
+public import uim.bootstrap.vue.components.carousels.carousel;
 
 string vueGlobalRegisterCarousels() {
 	return 

@@ -1,2 +1,2 @@
-﻿module uim.bsv.components.collapses;
+﻿module uim.bootstrap.vue.components.collapses;
 

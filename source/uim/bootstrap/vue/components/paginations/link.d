@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.paginations.link;
+﻿module uim.bootstrap.vue.components.paginations.link;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVPageLink: DBSVComponent {
 	this() {

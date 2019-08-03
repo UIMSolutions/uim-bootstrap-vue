@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.navs.item;
+﻿module uim.bootstrap.vue.components.navs.item;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVNavItem : DBSVComponent {
 	this() {

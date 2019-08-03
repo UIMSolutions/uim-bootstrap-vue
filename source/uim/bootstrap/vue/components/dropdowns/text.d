@@ -1,13 +1,13 @@
-﻿module uim.bsv.components.dropdowns.text;
+﻿module uim.bootstrap.vue.components.dropdowns.text;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVDropdownText : DBSVComponent {
 	this() {
 		super();
 		
 		_name = "bsv-dropdown-text";
-		_props["label"] = VUEProp("label", ["String"]);
+		_props["label"] = "String";
 		_render = initVueVars~
 				jsIfElse("this.label", "content.push(this.label)", `content=this.$slots.default;`)~ 
 				createVueElement("span", ["dropdown-item-text"]);

@@ -1,14 +1,14 @@
-﻿module uim.bsv.components.breadcrumbs.item;
+﻿module uim.bootstrap.vue.components.breadcrumbs.item;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVBreadCrumbItem: DBSVComponent {
 	this() {
 		super();
 			
 		_name = "bsv-breadcrumb-item";
-		_props["label"] = VUEProp("label", ["String"]);
-		_props["active"] = VUEProp("active", ["Boolean"]);
+		_props["label"] = "String";
+		_props["active"] = "Boolean";
 		_render = initVueVars~
 			jsIf("this.active", "classes.push('active');")~ // attributes.ariaCurrent='page';")~
 				jsIfElse("this.label", `content.push(this.label);`, "content.push(this.$slots.default);")~

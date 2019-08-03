@@ -1,8 +1,8 @@
-﻿module uim.bsv.components.forms;
+﻿module uim.bootstrap.vue.components.forms;
 
-public import uim.bsv.components.forms.check;
-public import uim.bsv.components.forms.form;
-public import uim.bsv.components.forms.group;
+public import uim.bootstrap.vue.components.forms.check;
+public import uim.bootstrap.vue.components.forms.form;
+public import uim.bootstrap.vue.components.forms.group;
 
 string vueGlobalRegisterForms() {
 	return 

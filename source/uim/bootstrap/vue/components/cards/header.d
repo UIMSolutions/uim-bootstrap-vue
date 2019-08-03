@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.cards.header;
+﻿module uim.bootstrap.vue.components.cards.header;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVCardHeader : DBSVComponent {
 	this() {

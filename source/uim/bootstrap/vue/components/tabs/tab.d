@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.tabs.tab;
+﻿module uim.bootstrap.vue.components.tabs.tab;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVTab : DBSVComponent {
 	this() {

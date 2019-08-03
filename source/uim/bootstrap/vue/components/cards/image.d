@@ -1,14 +1,13 @@
-﻿module uim.bsv.components.cards.image;
+﻿module uim.bootstrap.vue.components.cards.image;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVCardImage : DBSVComponent {
 	this() {
 		super();
 
 		_name = "bsv-card-img";
-
-		_props["position"] = VUEProp("position", ["String"]);
+		_props["position"] = "String";
 
 		_render = initVueVars~
 				`content=this.$slots.default;`~ 

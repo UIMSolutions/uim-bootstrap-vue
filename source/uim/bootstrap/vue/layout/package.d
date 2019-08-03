@@ -1,4 +1,4 @@
-﻿module uim.bsv.layout;
+﻿module uim.bootstrap.vue.layout;
 
-public import uim.bsv.layout.container;
-public import uim.bsv.layout.row;
+public import uim.bootstrap.vue.layout.container;
+public import uim.bootstrap.vue.layout.row;

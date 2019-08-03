@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.tabs;
+﻿module uim.bootstrap.vue.components.tabs;
 
-public import uim.bsv.components.tabs.tab;
+public import uim.bootstrap.vue.components.tabs.tab;
 
 string vueGlobalRegisterTabs() {
 	return 

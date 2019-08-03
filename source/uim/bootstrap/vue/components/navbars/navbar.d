@@ -1,14 +1,14 @@
-﻿module uim.bsv.components.navbars.navbar;
+﻿module uim.bootstrap.vue.components.navbars.navbar;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVNavbar : DBSVComponent {
 	this() {
 		super(); 
 		
 		_name = "bsv-navbar";
-		_props["dark"] = VUEProp("dark", ["Boolean"]);
-		_props["light"] = VUEProp("light", ["Boolean"]);
+		_props["dark"] = "Boolean";
+		_props["light"] = "Boolean";
 		_render = initVueVars~
 			`content.push(this.$slots.default);`~ 
 				jsIf("this.light", "classes.push(this.light)")~

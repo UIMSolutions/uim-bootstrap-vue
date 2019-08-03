@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.navbars.togglericon;
+﻿module uim.bootstrap.vue.components.navbars.togglericon;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVNavbarTogglerIcon : DBSVComponent {
 	this() {

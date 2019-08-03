@@ -1,17 +1,17 @@
-﻿module uim.bsv.components.dropdowns.dropdown;
+﻿module uim.bootstrap.vue.components.dropdowns.dropdown;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVDropdown : DBSVComponent {
 	this() {
 		super();
 
 		_name = "bsv-dropdown";
-		_props["dropDownId"] = VUEProp("dropDownId", ["String"], null, true);
-		_props["label"] = VUEProp("label", ["String"], null, true);
-		_props["color"] = VUEProp("color", ["String"]);
-		_props["items"] = VUEProp("items", ["Array"]);
-		_props["buttons"] = VUEProp("buttons", ["Array"]);
+		_props["dropDownId"] = "String";
+		_props["label"] = "String";
+		_props["color"] = "String";
+		_props["items"] = "Array";
+		_props["buttons"] = "Array";
 		_render = initVueVars~
 			jsIf("!this.dropdownId", "this.dropdownId='id'+Math.random();")~
 			jsIf("this.label",

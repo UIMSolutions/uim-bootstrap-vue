@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.cards.columns;
+﻿module uim.bootstrap.vue.components.cards.columns;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVCardColumns : DBSVComponent {
 	this() {

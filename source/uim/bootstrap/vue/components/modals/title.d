@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.modals.title;
+﻿module uim.bootstrap.vue.components.modals.title;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVModalTitle: DBSVComponent {
 	this() {

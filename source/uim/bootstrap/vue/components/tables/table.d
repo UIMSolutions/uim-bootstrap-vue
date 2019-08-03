@@ -1,20 +1,20 @@
-﻿module uim.bsv.components.tables.table;
+﻿module uim.bootstrap.vue.components.tables.table;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVTable : DBSVComponent {
 	this() {
 		super();
 		
 		_name = "bsv-table";
-		_props["size"] = VUEProp("size", ["String"]);
-		_props["light"] = VUEProp("light", ["Boolean"]);
-		_props["dark"] = VUEProp("dark", ["Boolean"]);
-		_props["striped"] = VUEProp("striped", ["Boolean"]);
-		_props["bordered"] = VUEProp("bordered", ["Boolean"]);
-		_props["cols"] = VUEProp("cols", ["Array"]);
-		_props["rows"] = VUEProp("rows", ["Array"]);
-		_props["headcol"] = VUEProp("headcol", ["Number"]);
+		_props["size"] = "String";
+		_props["light"] = "Boolean";
+		_props["dark"] = "Boolean";
+		_props["striped"] = "Boolean";
+		_props["bordered"] = "Boolean";
+		_props["cols"] = "Array";
+		_props["rows"] = "Array";
+		_props["headcol"] = "Number";
 
 		_render = initVueVars~
 			`if (this.cols) {`~

@@ -1,21 +1,21 @@
-﻿module uim.bsv.components;
+﻿module uim.bootstrap.vue.components;
 
-// uim.bsv libraries
-public import uim.bsv.components.alerts;
-public import uim.bsv.components.badges;
-public import uim.bsv.components.breadcrumbs;
-public import uim.bsv.components.buttons;
-public import uim.bsv.components.cards;
-public import uim.bsv.components.carousels;
-public import uim.bsv.components.collapses;
-public import uim.bsv.components.dropdowns;
-public import uim.bsv.components.forms;
-public import uim.bsv.components.jumbotrons;
-public import uim.bsv.components.lists;
-public import uim.bsv.components.modals;
-public import uim.bsv.components.navbars;
-public import uim.bsv.components.navs;
-public import uim.bsv.components.paginations;
-public import uim.bsv.components.progresses;
-public import uim.bsv.components.tables;
-public import uim.bsv.components.tabs;
+// uim.bootstrap.vue libraries
+public import uim.bootstrap.vue.components.alerts;
+public import uim.bootstrap.vue.components.badges;
+public import uim.bootstrap.vue.components.breadcrumbs;
+public import uim.bootstrap.vue.components.buttons;
+public import uim.bootstrap.vue.components.cards;
+public import uim.bootstrap.vue.components.carousels;
+public import uim.bootstrap.vue.components.collapses;
+public import uim.bootstrap.vue.components.dropdowns;
+public import uim.bootstrap.vue.components.forms;
+public import uim.bootstrap.vue.components.jumbotrons;
+public import uim.bootstrap.vue.components.lists;
+public import uim.bootstrap.vue.components.modals;
+public import uim.bootstrap.vue.components.navbars;
+public import uim.bootstrap.vue.components.navs;
+public import uim.bootstrap.vue.components.paginations;
+public import uim.bootstrap.vue.components.progresses;
+public import uim.bootstrap.vue.components.tables;
+public import uim.bootstrap.vue.components.tabs;

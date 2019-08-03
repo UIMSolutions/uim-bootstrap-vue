@@ -1,14 +1,14 @@
-﻿module uim.bsv.components.paginations.item;
+﻿module uim.bootstrap.vue.components.paginations.item;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVPageItem: DBSVComponent {
 	this() {
 		super();
 		
 		_name = "bsv-page-item";
-		_props["active"] = VUEProp("active", ["Boolean"]);
-		_props["disabled"] = VUEProp("disabled", ["Boolean"]);
+		_props["active"] = "Boolean";
+		_props["disabled"] = "Boolean";
 		_render = initVueVars~
 			`content=this.$slots.default;`~ 
 				jsIf("this.active", "classes.push('active');")~

@@ -1,7 +1,7 @@
-﻿module uim.bsv.components.breadcrumbs;
+﻿module uim.bootstrap.vue.components.breadcrumbs;
 
-public import uim.bsv.components.breadcrumbs.breadcrumb;
-public import uim.bsv.components.breadcrumbs.item;
+public import uim.bootstrap.vue.components.breadcrumbs.breadcrumb;
+public import uim.bootstrap.vue.components.breadcrumbs.item;
 
 string vueGlobalRegisterBreadcrumbs() {
 	return 

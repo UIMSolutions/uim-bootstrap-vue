@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.badges;
+﻿module uim.bootstrap.vue.components.badges;
 
-public import uim.bsv.components.badges.badge;
+public import uim.bootstrap.vue.components.badges.badge;
 
 string vueGlobalRegisterBadges() {
 	return 

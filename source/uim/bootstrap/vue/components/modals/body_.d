@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.modals.body_;
+﻿module uim.bootstrap.vue.components.modals.body_;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVModalBody: DBSVComponent {
 	this() {

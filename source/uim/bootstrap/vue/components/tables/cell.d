@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.tables.cell;
+﻿module uim.bootstrap.vue.components.tables.cell;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVTableCell : DBSVComponent {
 	this() {

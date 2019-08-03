@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.cards.deck;
+﻿module uim.bootstrap.vue.components.cards.deck;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVCardDeck : DBSVComponent {
 	this() {

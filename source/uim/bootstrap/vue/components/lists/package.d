@@ -1,7 +1,7 @@
-﻿module uim.bsv.components.lists;
+﻿module uim.bootstrap.vue.components.lists;
 
-public import uim.bsv.components.lists.item;
-public import uim.bsv.components.lists.group;
+public import uim.bootstrap.vue.components.lists.item;
+public import uim.bootstrap.vue.components.lists.group;
 
 string vueGlobalRegisterLists() {
 	return 

@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.cards.footer;
+﻿module uim.bootstrap.vue.components.cards.footer;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVCardFooter : DBSVComponent {
 	this() {

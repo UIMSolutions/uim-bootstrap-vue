@@ -1,14 +1,14 @@
-﻿module uim.bsv.components.paginations.pagination;
+﻿module uim.bootstrap.vue.components.paginations.pagination;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVPagination: DBSVComponent {
 	this() {
 		super();
 		
 		_name = "bsv-pagination";
-		_props["size"] = VUEProp("size", ["String"]);
-		_props["position"] = VUEProp("position", ["String"]);
+		_props["size"] = "String";
+		_props["position"] = "String";
 		_render = initVueVars~
 			`content=this.$slots.default;`~ 
 				jsIf("this.size", "classes.push('justify-content-'+(this.size);")~
@@ -19,6 +19,5 @@ class DBSVPagination: DBSVComponent {
 auto BSVPagination() { return new DBSVPagination; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
 }	
 

@@ -1,15 +1,15 @@
-﻿module uim.bsv.components.dropdowns.toggle;
+﻿module uim.bootstrap.vue.components.dropdowns.toggle;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVDropdownToggle : DBSVComponent {
 	this() {
 		super();
 		
 		_name = "bsv-dropdown-toggle";
-		_props["id"] = VUEProp("id", ["String"], null, true);
-		_props["label"] = VUEProp("label", ["String"]);
-		_props["color"] = VUEProp("color", ["String"]);
+		_props["id"] = "String";
+		_props["label"] = "String";
+		_props["color"] = "String";
 		_render = initVueVars~
 			"attributes={'data-toggle':'dropdown', 'aria-haspopup':'true', 'aria-expanded':'false'};"~ 
 				jsIf("this.id", "attributes.id=this.id;")~ 

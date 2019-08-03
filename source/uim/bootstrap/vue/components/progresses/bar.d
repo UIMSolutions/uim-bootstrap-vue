@@ -1,16 +1,16 @@
-﻿module uim.bsv.components.progresses.bar;
+﻿module uim.bootstrap.vue.components.progresses.bar;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVProgressBar: DBSVComponent {
 	this() {
 		super();
 		
 		_name = "bsv-progress-bar";
-		_props["textColor"] = VUEProp("textColor", ["String"]);
-		_props["bgColor"] = VUEProp("bgColor", ["String"]);
-		_props["striped"] = VUEProp("striped", ["Boolean"]);
-		_props["animated"] = VUEProp("animated", ["Boolean"]);
+		_props["textColor"] = "String";
+		_props["bgColor"] = "String";
+		_props["striped"] = "Boolean";
+		_props["animated"] = "Boolean";
 		_render = initVueVars~
 			`content=this.$slots.default;`~ 
 				jsIf("this.textColor", "classes.push('text-'+this.textColor);")~ 

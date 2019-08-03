@@ -1,14 +1,14 @@
-﻿module uim.bsv.components.badges.badge;
+﻿module uim.bootstrap.vue.components.badges.badge;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVBadge: DBSVComponent {
 	this() {
 		super();
 
 		_name = "bsv-badge";
-		_props["color"] = VUEProp("color", ["String"]);
-		_props["pill"] = VUEProp("pill", ["Boolean"]);
+		_props["color"] = "String";
+		_props["pill"] = "Boolean";
 		
 		_render = initVueVars~
 			`content=this.$slots.default;`~ 

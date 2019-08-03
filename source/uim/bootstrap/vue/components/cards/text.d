@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.cards.text;
+﻿module uim.bootstrap.vue.components.cards.text;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVCardText : DBSVComponent {
 	this() {

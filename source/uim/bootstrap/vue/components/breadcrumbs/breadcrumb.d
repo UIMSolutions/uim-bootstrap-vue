@@ -1,13 +1,13 @@
-﻿module uim.bsv.components.breadcrumbs.breadcrumb;
+﻿module uim.bootstrap.vue.components.breadcrumbs.breadcrumb;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVBreadCrumb: DBSVComponent {
 	this() {
 		super();
 			
 		_name = "bsv-breadcrumb";
-		_props["items"] = VUEProp("items", ["Array"]);
+		_props["items"] = "Array";
 		_render = initVueVars~
 			"var cls = []; cls.push('breadcrumb');"~
 			jsIfElse("this.items",
@@ -26,6 +26,5 @@ class DBSVBreadCrumb: DBSVComponent {
 auto BSVBreadCrumb() { return new DBSVBreadCrumb; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
 }	
 

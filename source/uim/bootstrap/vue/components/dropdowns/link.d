@@ -1,14 +1,14 @@
-﻿module uim.bsv.components.dropdowns.link;
+﻿module uim.bootstrap.vue.components.dropdowns.link;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVDropdownLink : DBSVComponent {
 	this() {
 		super();
 		
 		_name = "bsv-dropdown-link";
-		_props["link"] = VUEProp("link", ["String"]);
-		_props["label"] = VUEProp("label", ["String"]);
+		_props["link"] = "String";
+		_props["label"] = "String";
 		_render = initVueVars~
 				jsIf("this.link", "attributes.href=this.link;")~
 				jsIfElse("this.label", "content.push(this.label)", `content=this.$slots.default;`)~ 

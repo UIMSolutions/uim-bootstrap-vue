@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.forms.check;
+﻿module uim.bootstrap.vue.components.forms.check;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVFormCheck : DBSVComponent {
 	this() {

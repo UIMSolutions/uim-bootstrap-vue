@@ -1,15 +1,15 @@
-﻿module uim.bsv.layout.container;
+﻿module uim.bootstrap.vue.layout.container;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVContainer : DBSVComponent {
 	this() {
 		super();
 		
 		_name = "bsv-container";
-		_props["textColor"] = VUEProp("textColor", ["String"]);
-		_props["bgColor"] = VUEProp("bgColor", ["String"]);
-		_props["fluid"] = VUEProp("fluid", ["Boolean"]);
+		_props["textColor"] = "String";
+		_props["bgColor"] = "String";
+		_props["fluid"] = "Boolean";
 		_render = initVueVars~
 				jsIfElse("this.fluid", "classes.push('container-fluid');", "classes.push('container');")~ 
 				jsIf("this.textColor", "classes.push('text-'+this.textColor);")~ 

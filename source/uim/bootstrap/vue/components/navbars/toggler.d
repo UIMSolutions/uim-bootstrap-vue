@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.navbars.toggler;
+﻿module uim.bootstrap.vue.components.navbars.toggler;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVNavbarToggler : DBSVComponent {
 	this() {

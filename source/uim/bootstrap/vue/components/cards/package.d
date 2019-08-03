@@ -1,15 +1,15 @@
-﻿module uim.bsv.components.cards;
+﻿module uim.bootstrap.vue.components.cards;
 
-public import uim.bsv.components.cards.body_;
-public import uim.bsv.components.cards.card;
-public import uim.bsv.components.cards.columns;
-public import uim.bsv.components.cards.deck;
-public import uim.bsv.components.cards.footer;
-public import uim.bsv.components.cards.header;
-public import uim.bsv.components.cards.image;
-public import uim.bsv.components.cards.subtitle;
-public import uim.bsv.components.cards.text;
-public import uim.bsv.components.cards.title;
+public import uim.bootstrap.vue.components.cards.body_;
+public import uim.bootstrap.vue.components.cards.card;
+public import uim.bootstrap.vue.components.cards.columns;
+public import uim.bootstrap.vue.components.cards.deck;
+public import uim.bootstrap.vue.components.cards.footer;
+public import uim.bootstrap.vue.components.cards.header;
+public import uim.bootstrap.vue.components.cards.image;
+public import uim.bootstrap.vue.components.cards.subtitle;
+public import uim.bootstrap.vue.components.cards.text;
+public import uim.bootstrap.vue.components.cards.title;
 
 string vueGlobalRegisterCards() {
 	return 

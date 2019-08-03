@@ -1,4 +1,4 @@
-﻿module uim.bsv;
+﻿module uim.bootstrap.vue;
 
 // libraries
 public import uim.core;
@@ -9,9 +9,45 @@ public import uim.vue;
 public import uim.bootstrap;
 public import uim.javascript;
 
-public import uim.bsv.layout;
-public import uim.bsv.components;
-public import uim.bsv.component;
+public import uim.bootstrap.vue.layout;
+public import uim.bootstrap.vue.components;
+public import uim.bootstrap.vue.component;
+
+public import uim.bootstrap.vue.breadcrumb;
+public import uim.bootstrap.vue.button;
+public import uim.bootstrap.vue.combobox;
+public import uim.bootstrap.vue.context;
+public import uim.bootstrap.vue.datepicker;
+public import uim.bootstrap.vue.form;
+public import uim.bootstrap.vue.mixins;
+public import uim.bootstrap.vue.shellbar;
+public import uim.bootstrap.vue.splitbutton;
+public import uim.bootstrap.vue.tile;
+
+DVUEComponent vueActionBar;
+DVUEComponent vueAlert;
+DVUEComponent vueBadge;
+DVUEComponent vueCalendar;
+DVUEComponent vueContextButton;
+DVUEComponent vueContextMenu;
+DVUEComponent vueCounter;
+DVUEComponent vueDateInput;
+DVUEComponent vueDropdown;
+DVUEComponent vueDropdownControl;
+DVUEComponent vueFieldSet;
+DVUEComponent vueIdentifier;
+DVUEComponent vueInlineHelp;
+DVUEComponent vueMenuItem;
+DVUEComponent vueMenuLink;
+DVUEComponent vueLegend;
+DVUEComponent vuePanelGrid;
+DVUEComponent vuePopover;
+DVUEComponent vueSection;
+DVUEComponent vueSideNav;
+DVUEComponent vueSpinner;
+DVUEComponent vueStatus;
+DVUEComponent vueTabItem;
+DVUEComponent vueTabs;
 
 string initVueVars() {
 	return `var tag='';`~

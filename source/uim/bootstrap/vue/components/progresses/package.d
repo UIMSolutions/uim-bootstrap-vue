@@ -1,7 +1,7 @@
-﻿module uim.bsv.components.progresses;
+﻿module uim.bootstrap.vue.components.progresses;
 
-public import uim.bsv.components.progresses.progress;
-public import uim.bsv.components.progresses.bar;
+public import uim.bootstrap.vue.components.progresses.progress;
+public import uim.bootstrap.vue.components.progresses.bar;
 
 string vueGlobalRegisterProgresses() {
 	return 

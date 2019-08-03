@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.collapses.collapse;
+﻿module uim.bootstrap.vue.components.collapses.collapse;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVCollapse : DBSVComponent {
 	this() {

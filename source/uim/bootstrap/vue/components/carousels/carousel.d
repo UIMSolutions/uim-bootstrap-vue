@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.carousels.carousel;
+﻿module uim.bootstrap.vue.components.carousels.carousel;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVCarousel : DBSVComponent {
 	this() {

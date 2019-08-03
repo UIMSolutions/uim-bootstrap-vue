@@ -1,16 +1,16 @@
-﻿module uim.bsv.components.cards.card;
+﻿module uim.bootstrap.vue.components.cards.card;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVCard : DBSVComponent {
 	this() {
 		super();
 
 		_name = "bsv-card";
-		_props["textColor"] = VUEProp("textColor", ["String"]);
-		_props["bgColor"] = VUEProp("bgColor", ["String"]);
-		_props["block"] = VUEProp("block", ["Boolean"]);
-		_props["inverse"] = VUEProp("inverse", ["Boolean"]);
+		this.props("textColor", "String")
+		.props("bgColor", "String")
+		.props("block", "Boolean")
+		.props("inverse", "Boolean");
 		_render = initVueVars~
 				`content=this.$slots.default;`~ 
 				jsIf("this.textColor", "classes.push('text-'+this.textColor);")~ 

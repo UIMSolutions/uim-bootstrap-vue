@@ -1,17 +1,17 @@
-﻿module uim.bsv.components.buttons.button;
+﻿module uim.bootstrap.vue.components.buttons.button;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVButton: DBSVComponent {
 	this() {
 		super(); 
 
 		_name = "bsv-button";
-		_props["color"] = VUEProp("color", ["String"]);
-		_props["outlineColor"] = VUEProp("outlineColor", ["String"]);
-		_props["btnType"] = VUEProp("btnType", ["String"]);
-		_props["size"] = VUEProp("size", ["String"]);
-		_props["block"] = VUEProp("block", ["Boolean"]);
+		this.props("color", "String")
+		.props("outlineColor", "String")
+		.props("btnType", "String")
+		.props("size", "String")
+		.props("block", "Boolean");
 
 		_render = initVueVars~
 			`content.push(this.$slots.default);`~ 

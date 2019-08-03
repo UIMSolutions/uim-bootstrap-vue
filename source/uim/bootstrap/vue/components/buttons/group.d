@@ -1,17 +1,17 @@
-﻿module uim.bsv.components.buttons.group;
+﻿module uim.bootstrap.vue.components.buttons.group;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVButtonGroup : DBSVComponent {
 	this() {
 		super(); 
 		
 		_name = "bsv-button-group";
-		_props["label"] = VUEProp("label", ["String"]);
-		_props["size"] = VUEProp("label", ["String"]);
-		_props["vertical"] = VUEProp("vertical", ["Boolean"]);
-		_props["toolbar"] = VUEProp("toolbar", ["Boolean"]);
-		_props["buttons"] = VUEProp("buttons", ["Array"]);
+		_props["label"] = "String";
+		_props["size"] = "String";
+		_props["vertical"] = "Boolean";
+		_props["toolbar"] = "Boolean";
+		_props["buttons"] = "Array";
 
 		_render = initVueVars~
 			jsIfElse("this.vertical", "classes.push('btn-group-vertical');", "classes.push('btn-group');")~ 

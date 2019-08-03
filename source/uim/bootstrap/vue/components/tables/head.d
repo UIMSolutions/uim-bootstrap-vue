@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.tables.head;
+﻿module uim.bootstrap.vue.components.tables.head;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVTableHead : DBSVComponent {
 	this() {

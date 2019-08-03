@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.forms.group;
+﻿module uim.bootstrap.vue.components.forms.group;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVFormGroup : DBSVComponent {
 	this() {

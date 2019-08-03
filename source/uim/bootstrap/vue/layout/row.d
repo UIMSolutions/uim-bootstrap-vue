@@ -1,14 +1,14 @@
-﻿module uim.bsv.layout.row;
+﻿module uim.bootstrap.vue.layout.row;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVRow : DBSVComponent {
 	this() {
 		super();
 		
 		_name = "bsv-row";
-		_props["textColor"] = VUEProp("textColor", ["String"]);
-		_props["bgColor"] = VUEProp("bgColor", ["String"]);
+		_props["textColor"] = "String";
+		_props["bgColor"] = "String";
 		_render = initVueVars~
 			`tag='div';`~
 			`classes.push('row');`~ 
@@ -21,5 +21,4 @@ class DBSVRow : DBSVComponent {
 auto BSVRow() { return new DBSVRow; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
 }	

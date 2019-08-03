@@ -1,8 +1,8 @@
-﻿module uim.bsv.components.navs;
+﻿module uim.bootstrap.vue.components.navs;
 
-public import uim.bsv.components.navs.nav;
-public import uim.bsv.components.navs.link;
-public import uim.bsv.components.navs.item;
+public import uim.bootstrap.vue.components.navs.nav;
+public import uim.bootstrap.vue.components.navs.link;
+public import uim.bootstrap.vue.components.navs.item;
 
 string vueGlobalRegisterNavs() {
 	return 

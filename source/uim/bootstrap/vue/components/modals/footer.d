@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.modals.footer;
+﻿module uim.bootstrap.vue.components.modals.footer;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVModalFooter: DBSVComponent {
 	this() {

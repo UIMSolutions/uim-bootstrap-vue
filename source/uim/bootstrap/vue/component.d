@@ -1,14 +1,8 @@
-﻿module uim.bsv.component;
+module uim.bootstrap.vue.component;
 
-import uim.bsv;
+public import uim.bootstrap.vue;
 
-class DBSVComponent : DVUEComponent {
-	this() {}
-
-
+class DBSVComponent {
+ 	this() {
+    }
 }
-auto BSVComponent() { return new DBSVComponent; }
-
-unittest {
-	writeln("Testing ", __MODULE__);	
-}	

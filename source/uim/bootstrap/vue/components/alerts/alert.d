@@ -1,13 +1,13 @@
-﻿module uim.bsv.components.alerts.alert;
+﻿module uim.bootstrap.vue.components.alerts.alert;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVAlert : DBSVComponent {
 	this() {
 		super();
 
 		_name = "bsv-alert";
-		_props["color"] = VUEProp("color", ["String"]);
+		_props["color"] = "String";
 		_render = initVueVars~
 				jsIfElse("this.color", "classes.push('alert-'+this.color);", "classes.push('alert-primary');")~
 				createVueElement("div", ["alert"]);
@@ -16,8 +16,6 @@ class DBSVAlert : DBSVComponent {
 auto BSVAlert() { return new DBSVAlert; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
-
 	assert(BSVAlert.name == "bsv-alert");
 	assert(BSVAlert.templ == "'"~BS4Alert.toString~"'");
 }	

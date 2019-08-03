@@ -1,7 +1,7 @@
-﻿module uim.bsv.components.buttons;
+﻿module uim.bootstrap.vue.components.buttons;
 
-public import uim.bsv.components.buttons.button;
-public import uim.bsv.components.buttons.group;
+public import uim.bootstrap.vue.components.buttons.button;
+public import uim.bootstrap.vue.components.buttons.group;
 
 string vueGlobalRegisterButtons() {
 	return 

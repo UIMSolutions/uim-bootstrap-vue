@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.progresses.progress;
+﻿module uim.bootstrap.vue.components.progresses.progress;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVProgress: DBSVComponent {
 	this() {

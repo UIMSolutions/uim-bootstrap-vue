@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.dropdowns.divider;
+﻿module uim.bootstrap.vue.components.dropdowns.divider;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVDropdownDivider : DBSVComponent {
 	this() {

@@ -1,11 +1,11 @@
-﻿module uim.bsv.components.tables;
+﻿module uim.bootstrap.vue.components.tables;
 
-public import uim.bsv.components.tables.body_;
-public import uim.bsv.components.tables.cell;
-public import uim.bsv.components.tables.head;
-public import uim.bsv.components.tables.header;
-public import uim.bsv.components.tables.row;
-public import uim.bsv.components.tables.table;
+public import uim.bootstrap.vue.components.tables.body_;
+public import uim.bootstrap.vue.components.tables.cell;
+public import uim.bootstrap.vue.components.tables.head;
+public import uim.bootstrap.vue.components.tables.header;
+public import uim.bootstrap.vue.components.tables.row;
+public import uim.bootstrap.vue.components.tables.table;
 
 string vueGlobalRegisterTables() {
 	return 

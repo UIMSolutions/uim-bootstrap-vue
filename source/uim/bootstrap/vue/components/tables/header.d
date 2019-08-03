@@ -1,14 +1,14 @@
-﻿module uim.bsv.components.tables.header;
+﻿module uim.bootstrap.vue.components.tables.header;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVTableHeader : DBSVComponent {
 	this() {
 		super();
 		
 		_name = "bsv-table-header";
-		_props["light"] = VUEProp("light", ["Boolean"]);
-		_props["dark"] = VUEProp("dark", ["Boolean"]);
+		_props["light"] = "Boolean";
+		_props["dark"] = "Boolean";
 		_render = initVueVars~
 				`content.push(this.$slots.default);`~ 
 				jsIf("this.light", "classes.push('table-light');")~

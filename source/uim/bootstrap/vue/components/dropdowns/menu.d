@@ -1,14 +1,14 @@
-﻿module uim.bsv.components.dropdowns.menu;
+﻿module uim.bootstrap.vue.components.dropdowns.menu;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVDropdownMenu : DBSVComponent {
 	this() {
 		super();
 		
 		_name = "bsv-dropdown-menu";
-		_props["label"] = VUEProp("label", ["String"]);
-		_props["position"] = VUEProp("position", ["String"]);
+		_props["label"] = "String";
+		_props["position"] = "String";
 		_render = initVueVars~
 				`content=this.$slots.default;`~ 
 				jsIf("this.label", "attributes.ariaLabelledby=this.label;")~

@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.tables.row;
+﻿module uim.bootstrap.vue.components.tables.row;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVTableRow : DBSVComponent {
 	this() {

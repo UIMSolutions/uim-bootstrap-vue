@@ -1,12 +1,12 @@
-﻿module uim.bsv.components.modals;
+﻿module uim.bootstrap.vue.components.modals;
 
-public import uim.bsv.components.modals.content;
-public import uim.bsv.components.modals.dialog;
-public import uim.bsv.components.modals.header;
-public import uim.bsv.components.modals.modal;
-public import uim.bsv.components.modals.title;
-public import uim.bsv.components.modals.footer;
-public import uim.bsv.components.modals.body_;
+public import uim.bootstrap.vue.components.modals.content;
+public import uim.bootstrap.vue.components.modals.dialog;
+public import uim.bootstrap.vue.components.modals.header;
+public import uim.bootstrap.vue.components.modals.modal;
+public import uim.bootstrap.vue.components.modals.title;
+public import uim.bootstrap.vue.components.modals.footer;
+public import uim.bootstrap.vue.components.modals.body_;
 
 string vueGlobalRegisterModals() {
 	return 

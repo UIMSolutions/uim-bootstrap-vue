@@ -1,16 +1,16 @@
-﻿module uim.bsv.components.navs.link;
+﻿module uim.bootstrap.vue.components.navs.link;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVNavLink : DBSVComponent {
 	this() {
 		super();
 		
 		_name = "bsv-nav-link";
-		_props["link"] = VUEProp("link", ["String"]);
-		_props["label"] = VUEProp("label", ["String"]);
-		_props["active"] = VUEProp("active", ["Boolean"]);
-		_props["disabled"] = VUEProp("disabled", ["Boolean"]);
+		_props["link"] = "String";
+		_props["label"] = "String";
+		_props["active"] = "Boolean";
+		_props["disabled"] = "Boolean";
 		_render = initVueVars~
 			jsIf("this.link", "attributes.href=this.link;")~
 				jsIfElse("this.label", "content.push(this.label)", `content=this.$slots.default;`)~ 

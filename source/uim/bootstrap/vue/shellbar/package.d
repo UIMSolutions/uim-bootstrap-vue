@@ -1,0 +1,20 @@
+module uim.bootstrap.vue.shellbar;
+
+public import uim.bootstrap.vue;
+
+DVUEComponent vueShellBarAction;
+DVUEComponent vueShellBarActionButton;
+DVUEComponent vueShellBarActions;
+DVUEComponent vueShellBarGroup;
+DVUEComponent vueShellBarLogo;
+DVUEComponent vueShellBarProduct;
+DVUEComponent vueShellBarProductMenu;
+DVUEComponent vueShellBarProductSwitcher;
+DVUEComponent vueShellBarProductSwitcherItem;
+DVUEComponent vueShellBarProductSwitcherItemTitle;
+DVUEComponent vueShellBarProductSwitcherItemImg;
+DVUEComponent vueShellBarProductTitle;
+DVUEComponent vueShellBar;
+DVUEComponent vueShellBarSubTitle;
+DVUEComponent vueShellBarUserMenu;
+DVUEComponent vueShellBarUserMenuControl;

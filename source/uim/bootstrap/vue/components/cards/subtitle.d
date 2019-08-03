@@ -1,13 +1,13 @@
-﻿module uim.bsv.components.cards.subtitle;
+﻿module uim.bootstrap.vue.components.cards.subtitle;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVCardSubtitle : DBSVComponent {
 	this() {
 		super();
 
 		_name = "bsv-card-subtitle";
-		_props["level"] = VUEProp("level", ["String"]);
+		_props["level"] = "String";
 		_render = initVueVars~
 			jsIfElse("this.level", "tag = 'h'+this.level;", "tag='h6';`")~ 
 				`classes.push('card-subtitle');`~
@@ -18,5 +18,4 @@ class DBSVCardSubtitle : DBSVComponent {
 auto BSVCardSubtitle() { return new DBSVCardSubtitle; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
 }	

@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.jumbotrons;
+﻿module uim.bootstrap.vue.components.jumbotrons;
 
-public import uim.bsv.components.jumbotrons.jumbotron;
+public import uim.bootstrap.vue.components.jumbotrons.jumbotron;
 
 string vueGlobalRegisterJumbotrons() {
 	return 

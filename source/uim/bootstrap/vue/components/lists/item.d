@@ -1,6 +1,6 @@
-﻿module uim.bsv.components.lists.item;
+﻿module uim.bootstrap.vue.components.lists.item;
 
-import uim.bsv;
+import uim.bootstrap.vue;
 
 class DBSVListItem : DBSVComponent {
 	this() {
