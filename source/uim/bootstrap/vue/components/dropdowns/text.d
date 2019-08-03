@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.dropdowns.text;
+module uim.bootstrap.vue.components.dropdowns.text;
 
 import uim.bootstrap.vue;
 
@@ -16,6 +16,5 @@ class DBSVDropdownText : DBSVComponent {
 auto BSVDropdownText() { return new DBSVDropdownText; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
 	assert(BSVDropdownText.name == "bsv-dropdown-item");
 }	
