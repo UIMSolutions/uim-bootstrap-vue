@@ -13,6 +13,7 @@ public import uim.bootstrap.vue.layout;
 public import uim.bootstrap.vue.components;
 public import uim.bootstrap.vue.component;
 
+public import uim.bootstrap.vue.alert;
 public import uim.bootstrap.vue.breadcrumb;
 public import uim.bootstrap.vue.button;
 public import uim.bootstrap.vue.combobox;
@@ -25,7 +26,6 @@ public import uim.bootstrap.vue.splitbutton;
 public import uim.bootstrap.vue.tile;
 
 DVUEComponent vueActionBar;
-DVUEComponent vueAlert;
 DVUEComponent vueBadge;
 DVUEComponent vueCalendar;
 DVUEComponent vueContextButton;
