@@ -2,7 +2,9 @@ module uim.bootstrap.vue.button;
 
 public import uim.bootstrap.vue;
 
-DVUEModule vueButtonTypes;
+public import uim.bootstrap.vue.button.button;
+
+// DVUEModule vueButtonTypes;
 
 DVUEComponent vueButton;
 DVUEComponent vueButtonLink;

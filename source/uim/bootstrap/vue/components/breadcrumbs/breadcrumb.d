@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVBreadCrumb: DBSVComponent {
+class DBSVBreadCrumb: DVUEComponent {
 	this() {
 		super();
 			

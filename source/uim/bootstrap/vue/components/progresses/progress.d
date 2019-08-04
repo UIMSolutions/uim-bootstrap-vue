@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVProgress: DBSVComponent {
+class DBSVProgress: DVUEComponent {
 	this() {
 		super();
 		

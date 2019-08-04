@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVNavbarTogglerIcon : DBSVComponent {
+class DBSVNavbarTogglerIcon : DVUEComponent {
 	this() {
 		super(); 
 		

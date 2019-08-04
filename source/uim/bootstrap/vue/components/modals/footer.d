@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVModalFooter: DBSVComponent {
+class DBSVModalFooter: DVUEComponent {
 	this() {
 		super();
 		

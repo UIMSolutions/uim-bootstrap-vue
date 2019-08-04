@@ -11,9 +11,8 @@ public import uim.javascript;
 
 public import uim.bootstrap.vue.layout;
 public import uim.bootstrap.vue.components;
-public import uim.bootstrap.vue.component;
 
-public import uim.bootstrap.vue.alert;
+public import uim.bootstrap.vue.alerts;
 public import uim.bootstrap.vue.breadcrumb;
 public import uim.bootstrap.vue.button;
 public import uim.bootstrap.vue.combobox;
@@ -90,7 +89,7 @@ string registerAll() {
 	return 
 			vueGlobalRegisterAlerts~
 			vueGlobalRegisterBadges~
-			vueGlobalRegisterButtons~
+			//vueGlobalRegisterButtons~
 			vueGlobalRegisterCards~
 			vueGlobalRegisterCarousels~
 			vueGlobalRegisterDropdowns~
@@ -108,7 +107,7 @@ string registerAll() {
 			"";
 }
 
-string registerComponents(DBSVComponent[] components) {
+string registerComponents(DVUEComponent[] components) {
 	string result;
 	foreach(c; components) result~= c.globalRegistration;
 	return result;

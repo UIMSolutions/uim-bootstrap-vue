@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVModalDialog: DBSVComponent {
+class DBSVModalDialog: DVUEComponent {
 	this() {
 		super();
 		

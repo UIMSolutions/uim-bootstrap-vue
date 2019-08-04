@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVJumbotron : DBSVComponent {
+class DBSVJumbotron : DVUEComponent {
 	this() {
 		super(); 
 		

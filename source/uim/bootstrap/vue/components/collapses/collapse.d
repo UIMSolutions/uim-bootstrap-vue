@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVCollapse : DBSVComponent {
+class DBSVCollapse : DVUEComponent {
 	this() {
 		super(); 
 		

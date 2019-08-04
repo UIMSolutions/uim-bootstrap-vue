@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVNavbarBrand : DBSVComponent {
+class DBSVNavbarBrand : DVUEComponent {
 	this() {
 		super(); 
 		

@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVCardSubtitle : DBSVComponent {
+class DBSVCardSubtitle : DVUEComponent {
 	this() {
 		super();
 

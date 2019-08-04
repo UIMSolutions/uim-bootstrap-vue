@@ -1,8 +1,8 @@
-module uim.bootstrap.vue.components.dropdowns.text;
+﻿module uim.bootstrap.vue.components.dropdowns.text;
 
 import uim.bootstrap.vue;
 
-class DBSVDropdownText : DBSVComponent {
+class DBSVDropdownText : DVUEComponent {
 	this() {
 		super();
 		

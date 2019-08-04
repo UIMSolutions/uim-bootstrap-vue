@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVDropdownDivider : DBSVComponent {
+class DBSVDropdownDivider : DVUEComponent {
 	this() {
 		super();
 		

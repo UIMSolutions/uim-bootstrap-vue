@@ -4,5 +4,5 @@ public import uim.bootstrap.vue.components.alerts.alert;
 
 string vueGlobalRegisterAlerts() {
 	return 
-			BSVAlert.globalRegistration;
+			BV5Alert.globalRegistration;
 }

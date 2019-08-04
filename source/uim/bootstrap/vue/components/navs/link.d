@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVNavLink : DBSVComponent {
+class DBSVNavLink : DVUEComponent {
 	this() {
 		super();
 		

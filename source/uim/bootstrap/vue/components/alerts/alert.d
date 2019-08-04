@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVAlert : DBSVComponent {
+class DBV5Alert : DVUEComponent {
 	this() {
 		super();
 
@@ -13,9 +13,9 @@ class DBSVAlert : DBSVComponent {
 				createVueElement("div", ["alert"]);
 	}
 }
-auto BSVAlert() { return new DBSVAlert; }
+auto BV5Alert() { return new DBV5Alert; }
 
 unittest {
-	assert(BSVAlert.name == "bsv-alert");
-	assert(BSVAlert.templ == "'"~BS4Alert.toString~"'");
+	assert(BV5Alert.name == "bsv-alert");
+	assert(BV5Alert.template_ == "'"~BS4Alert.toString~"'");
 }	

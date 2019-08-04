@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVDropdown : DBSVComponent {
+class DBSVDropdown : DVUEComponent {
 	this() {
 		super();
 

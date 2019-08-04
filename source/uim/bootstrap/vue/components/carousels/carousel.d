@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVCarousel : DBSVComponent {
+class DBSVCarousel : DVUEComponent {
 	this() {
 		super();
 	}

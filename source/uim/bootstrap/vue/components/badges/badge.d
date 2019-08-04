@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVBadge: DBSVComponent {
+class DBSVBadge: DVUEComponent {
 	this() {
 		super();
 

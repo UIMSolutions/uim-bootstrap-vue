@@ -1,4 +1,4 @@
-module uim.bootstrap.vue.alert;
+module uim.bootstrap.vue.alerts;
 
 public import uim.bootstrap.vue;
 

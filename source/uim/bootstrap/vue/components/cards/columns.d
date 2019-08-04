@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVCardColumns : DBSVComponent {
+class DBSVCardColumns : DVUEComponent {
 	this() {
 		super();
 

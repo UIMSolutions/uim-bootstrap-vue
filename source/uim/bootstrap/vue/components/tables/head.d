@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVTableHead : DBSVComponent {
+class DBSVTableHead : DVUEComponent {
 	this() {
 		super();
 		

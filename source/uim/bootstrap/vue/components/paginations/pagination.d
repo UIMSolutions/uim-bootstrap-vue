@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVPagination: DBSVComponent {
+class DBSVPagination: DVUEComponent {
 	this() {
 		super();
 		

@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVFormCheck : DBSVComponent {
+class DBSVFormCheck : DVUEComponent {
 	this() {
 		super(); 
 		

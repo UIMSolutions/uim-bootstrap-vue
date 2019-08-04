@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVNavItem : DBSVComponent {
+class DBSVNavItem : DVUEComponent {
 	this() {
 		super();
 		

@@ -2,7 +2,7 @@
 
 import uim.bootstrap.vue;
 
-class DBSVButtonGroup : DBSVComponent {
+class DBSVButtonGroup : DVUEComponent {
 	this() {
 		super(); 
 		
