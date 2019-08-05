@@ -32,5 +32,5 @@ class DBV5Dropdown : DVUEComponent {
 auto BV5Dropdown() { return new DBV5Dropdown; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	

@@ -21,5 +21,5 @@ class DBV5Container : DVUEComponent {
 auto BV5Container() { return new DBV5Container; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	

@@ -15,5 +15,5 @@ class DBV5TableHead : DVUEComponent {
 auto BV5TableHead() { return new DBV5TableHead; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	

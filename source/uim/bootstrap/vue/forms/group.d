@@ -19,3 +19,10 @@ unittest {
   assert(BV5FormGroup.name == "UimFormGroup");
   assert(BV5FormGroup.name("test").name == "test");
 }
+
+/*
+		_name = "BV5-form-group";
+		_render = initVueVars~
+			`content.push(this.$slots.default);`~ 
+				createVueElement("div", ["form-group"]);
+*/

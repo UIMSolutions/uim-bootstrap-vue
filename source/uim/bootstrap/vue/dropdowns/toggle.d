@@ -21,5 +21,5 @@ class DBV5DropdownToggle : DVUEComponent {
 auto BV5DropdownToggle() { return new DBV5DropdownToggle; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	

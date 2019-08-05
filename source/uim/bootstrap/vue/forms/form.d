@@ -18,3 +18,10 @@ unittest {
   assert(BV5Form.name == "UimForm");
   assert(BV5Form.name("test").name == "test");
 }
+
+/*
+		_name = "BV5-form";
+		_render = initVueVars~
+			`content.push(this.$slots.default);`~ 
+				createVueElement("form");
+*/

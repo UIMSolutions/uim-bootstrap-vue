@@ -15,6 +15,6 @@ class DBV5NavbarToggler : DVUEComponent {
 auto BV5NavbarToggler() { return new DBV5NavbarToggler; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	
 

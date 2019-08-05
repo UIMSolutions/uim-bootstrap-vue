@@ -15,6 +15,6 @@ class DBV5ModalHeader: DVUEComponent {
 auto BV5ModalHeader() { return new DBV5ModalHeader; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	
 

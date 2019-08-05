@@ -15,5 +15,5 @@ class DBV5ListItem : DVUEComponent {
 auto BV5ListItem() { return new DBV5ListItem; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	

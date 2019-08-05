@@ -22,5 +22,5 @@ class DBV5NavLink : DVUEComponent {
 auto BV5NavLink() { return new DBV5NavLink; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	

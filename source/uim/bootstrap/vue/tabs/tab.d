@@ -10,5 +10,5 @@ class DBV5Tab : DVUEComponent {
 auto BV5Tab() { return new DBV5Tab; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	

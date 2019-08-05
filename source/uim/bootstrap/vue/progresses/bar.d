@@ -23,5 +23,4 @@ class DBV5ProgressBar: DVUEComponent {
 auto BV5ProgressBar() { return new DBV5ProgressBar; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
 }	

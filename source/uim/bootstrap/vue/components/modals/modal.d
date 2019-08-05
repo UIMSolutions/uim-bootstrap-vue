@@ -15,6 +15,6 @@ class DBV5Modal: DVUEComponent {
 auto BV5Modal() { return new DBV5Modal; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	
 

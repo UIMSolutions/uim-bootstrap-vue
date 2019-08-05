@@ -15,6 +15,6 @@ class DBV5ModalFooter: DVUEComponent {
 auto BV5ModalFooter() { return new DBV5ModalFooter; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	
 

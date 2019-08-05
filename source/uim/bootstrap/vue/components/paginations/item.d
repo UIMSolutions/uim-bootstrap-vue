@@ -19,6 +19,6 @@ class DBV5PageItem: DVUEComponent {
 auto BV5PageItem() { return new DBV5PageItem; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	
 

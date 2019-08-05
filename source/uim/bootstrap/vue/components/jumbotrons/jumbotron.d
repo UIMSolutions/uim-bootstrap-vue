@@ -17,5 +17,5 @@ class DBV5Jumbotron : DVUEComponent {
 auto BV5Jumbotron() { return new DBV5Jumbotron; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	

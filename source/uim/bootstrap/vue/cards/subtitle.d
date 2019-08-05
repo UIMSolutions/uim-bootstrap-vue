@@ -13,7 +13,7 @@ class DBV5CardSubtitle : DVUEComponent {
 	this(string aName) { this(); _name = aName; }
 	this(DVUEApp anApp, string aName) { this(anApp); _name = aName; }
 }
-mixin(BV5Shortcut!"Subtitle");
+mixin(BV5Shortcut!"CardSubtitle");
 
 unittest {
   assert(BV5CardSubtitle.name == "UimCardSubtitle");
@@ -21,10 +21,11 @@ unittest {
 }
 
 /*
-		_name = "BV5-card-title";
+_name = "BV5-card-subtitle";
+		_props["level"] = "String";
 		_render = initVueVars~
-			`tag='h4';`~
-				`classes.push('card-title');`~
+			jsIfElse("this.level", "tag = 'h'+this.level;", "tag='h6';`")~ 
+				`classes.push('card-subtitle');`~
 				`content=this.$slots.default;`~ 
-				createVueElement("h4");
+				createVueElement;
 */

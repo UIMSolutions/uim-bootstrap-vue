@@ -15,5 +15,5 @@ class DBV5FormCheck : DVUEComponent {
 auto BV5FormCheck() { return new DBV5FormCheck; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	

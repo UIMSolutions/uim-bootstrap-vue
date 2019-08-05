@@ -15,6 +15,6 @@ class DBV5NavbarTogglerIcon : DVUEComponent {
 auto BV5NavbarTogglerIcon() { return new DBV5NavbarTogglerIcon; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	
 

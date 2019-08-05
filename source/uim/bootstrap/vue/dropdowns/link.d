@@ -18,6 +18,6 @@ class DBV5DropdownLink : DVUEComponent {
 auto BV5DropdownLink() { return new DBV5DropdownLink; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 	assert(BV5DropdownLink.name == "BV5-dropdown-item");
 }	

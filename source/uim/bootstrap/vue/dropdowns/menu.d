@@ -19,6 +19,6 @@ class DBV5DropdownMenu : DVUEComponent {
 auto BV5DropdownMenu() { return new DBV5DropdownMenu; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 	assert(BV5DropdownMenu.name == "BV5-dropdown-menu");
 }	

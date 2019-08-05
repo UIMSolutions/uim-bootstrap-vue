@@ -15,6 +15,6 @@ class DBV5ModalDialog: DVUEComponent {
 auto BV5ModalDialog() { return new DBV5ModalDialog; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	
 

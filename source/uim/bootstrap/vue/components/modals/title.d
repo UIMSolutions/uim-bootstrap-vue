@@ -15,6 +15,6 @@ class DBV5ModalTitle: DVUEComponent {
 auto BV5ModalTitle() { return new DBV5ModalTitle; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	
 

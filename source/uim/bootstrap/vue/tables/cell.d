@@ -15,5 +15,5 @@ class DBV5TableCell : DVUEComponent {
 auto BV5TableCell() { return new DBV5TableCell; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	

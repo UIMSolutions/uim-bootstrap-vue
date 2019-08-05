@@ -18,5 +18,5 @@ class DBV5CardColumns : DVUEComponent {
 auto BV5CardColumns() { return new DBV5CardColumns; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	

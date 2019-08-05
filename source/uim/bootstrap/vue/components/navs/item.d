@@ -15,5 +15,5 @@ class DBV5NavItem : DVUEComponent {
 auto BV5NavItem() { return new DBV5NavItem; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	

@@ -15,5 +15,5 @@ class DBV5Progress: DVUEComponent {
 auto BV5Progress() { return new DBV5Progress; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	

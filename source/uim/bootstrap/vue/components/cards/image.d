@@ -18,5 +18,5 @@ class DBV5CardImage : DVUEComponent {
 auto BV5CardImage() { return new DBV5CardImage; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	

@@ -10,5 +10,5 @@ class DBV5Carousel : DVUEComponent {
 auto BV5Carousel() { return new DBV5Carousel; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	

@@ -18,5 +18,5 @@ class DBV5ListGroup : DVUEComponent {
 auto BV5ListGroup() { return new DBV5ListGroup; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	

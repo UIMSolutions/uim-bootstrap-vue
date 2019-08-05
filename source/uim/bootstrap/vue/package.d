@@ -10,7 +10,6 @@ public import uim.bootstrap;
 public import uim.javascript;
 
 public import uim.bootstrap.vue.layout;
-public import uim.bootstrap.vue.components;
 
 public import uim.bootstrap.vue.alerts;
 public import uim.bootstrap.vue.badges;

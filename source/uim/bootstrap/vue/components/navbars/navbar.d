@@ -19,5 +19,5 @@ class DBV5Navbar : DVUEComponent {
 auto BV5Navbar() { return new DBV5Navbar; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	

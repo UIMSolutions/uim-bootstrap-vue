@@ -19,5 +19,5 @@ class DBV5TableHeader : DVUEComponent {
 auto BV5TableHeader() { return new DBV5TableHeader; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	

@@ -15,6 +15,6 @@ class DBV5PageLink: DVUEComponent {
 auto BV5PageLink() { return new DBV5PageLink; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	
 

@@ -17,5 +17,5 @@ class DBV5CardDeck : DVUEComponent {
 auto BV5CardDeck() { return new DBV5CardDeck; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	

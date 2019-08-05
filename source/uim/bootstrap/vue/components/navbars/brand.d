@@ -17,6 +17,6 @@ class DBV5NavbarBrand : DVUEComponent {
 auto BV5NavbarBrand() { return new DBV5NavbarBrand; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	
 

@@ -15,5 +15,5 @@ class DBV5Collapse : DVUEComponent {
 auto BV5Collapse() { return new DBV5Collapse; }
 
 unittest {
-	writeln("Testing ", __MODULE__);	
+		
 }	
