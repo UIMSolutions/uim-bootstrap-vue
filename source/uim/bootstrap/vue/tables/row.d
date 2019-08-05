@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.tables.row;
+﻿module uim.bootstrap.vue.tables.row;
 
 import uim.bootstrap.vue;
 

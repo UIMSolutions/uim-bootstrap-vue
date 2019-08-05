@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.navbars.toggler;
+﻿module uim.bootstrap.vue.navbars.toggler;
 
 import uim.bootstrap.vue;
 

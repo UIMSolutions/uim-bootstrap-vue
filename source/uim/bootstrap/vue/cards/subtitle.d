@@ -1,23 +1,23 @@
-module uim.bootstrap.vue.cards.title;
+module uim.bootstrap.vue.cards.subtitle;
 
 public import uim.bootstrap.vue;
 
-class DBV5CardTitle : DVUEComponent {
+class DBV5CardSubtitle : DVUEComponent {
   this() {
     this
-    .name("UimCardTitle")
-    .computed("classes()", `return ["card-title"]`)
+    .name("UimCardSubtitle")
+    .computed("classes()", `return ["card-subtitle"]`)
     .template_(`<h5 :class="this.classes"><slot /></h5>`);
   }
 	this(DVUEApp anApp) { this(); _app = anApp; }
 	this(string aName) { this(); _name = aName; }
 	this(DVUEApp anApp, string aName) { this(anApp); _name = aName; }
 }
-mixin(BV5Shortcut!"CardTitle");
+mixin(BV5Shortcut!"Subtitle");
 
 unittest {
-  assert(BV5CardTitle.name == "UimCardTitle");
-  assert(BV5CardTitle.name("test").name == "test");
+  assert(BV5CardSubtitle.name == "UimCardSubtitle");
+  assert(BV5CardSubtitle.name("test").name == "test");
 }
 
 /*

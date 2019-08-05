@@ -7,4 +7,5 @@ public import uim.bootstrap.vue.cards.body_;
 public import uim.bootstrap.vue.cards.footer;
 public import uim.bootstrap.vue.cards.header;
 public import uim.bootstrap.vue.cards.text;
+public import uim.bootstrap.vue.cards.subtitle;
 public import uim.bootstrap.vue.cards.title;

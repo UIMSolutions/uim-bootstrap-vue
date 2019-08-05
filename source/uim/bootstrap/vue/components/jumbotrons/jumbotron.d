@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.jumbotrons.jumbotron;
+﻿module uim.bootstrap.vue.jumbotrons.jumbotron;
 
 import uim.bootstrap.vue;
 

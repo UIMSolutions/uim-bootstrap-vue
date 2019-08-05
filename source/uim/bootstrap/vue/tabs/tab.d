@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.tabs.tab;
+﻿module uim.bootstrap.vue.tabs.tab;
 
 import uim.bootstrap.vue;
 

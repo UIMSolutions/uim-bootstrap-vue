@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.navs.link;
+﻿module uim.bootstrap.vue.navs.link;
 
 import uim.bootstrap.vue;
 

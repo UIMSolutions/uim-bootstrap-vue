@@ -19,3 +19,10 @@ unittest {
   assert(BV5CardHeader.name == "UimCardHeader");
   assert(BV5CardHeader.name("test").name == "test");
 }
+
+/*
+		_name = "BV5-card-header";
+		_render = initVueVars~
+				`content=this.$slots.default;`~ 
+				createVueElement("div", ["card-header"]);
+*/

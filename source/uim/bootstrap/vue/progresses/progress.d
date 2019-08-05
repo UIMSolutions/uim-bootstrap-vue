@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.progresses.progress;
+﻿module uim.bootstrap.vue.progresses.progress;
 
 import uim.bootstrap.vue;
 

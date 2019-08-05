@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.cards.subtitle;
+﻿module uim.bootstrap.vue.cards.subtitle;
 
 import uim.bootstrap.vue;
 

@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.cards.image;
+﻿module uim.bootstrap.vue.cards.image;
 
 import uim.bootstrap.vue;
 

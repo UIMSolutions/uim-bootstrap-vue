@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.cards.columns;
+﻿module uim.bootstrap.vue.cards.columns;
 
 import uim.bootstrap.vue;
 

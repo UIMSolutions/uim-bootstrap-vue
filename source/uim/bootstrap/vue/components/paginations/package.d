@@ -1,5 +1,5 @@
-﻿module uim.bootstrap.vue.components.paginations;
+﻿module uim.bootstrap.vue.paginations;
 
-public import uim.bootstrap.vue.components.paginations.item;
-public import uim.bootstrap.vue.components.paginations.link;
-public import uim.bootstrap.vue.components.paginations.pagination;
+public import uim.bootstrap.vue.paginations.item;
+public import uim.bootstrap.vue.paginations.link;
+public import uim.bootstrap.vue.paginations.pagination;

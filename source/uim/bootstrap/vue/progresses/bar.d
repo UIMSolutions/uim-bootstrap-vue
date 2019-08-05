@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.progresses.bar;
+﻿module uim.bootstrap.vue.progresses.bar;
 
 import uim.bootstrap.vue;
 

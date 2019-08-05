@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.modals.footer;
+﻿module uim.bootstrap.vue.modals.footer;
 
 import uim.bootstrap.vue;
 

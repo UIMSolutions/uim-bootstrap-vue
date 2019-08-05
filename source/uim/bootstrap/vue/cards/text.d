@@ -19,3 +19,10 @@ unittest {
   assert(BV5CardText.name == "UimCardText");
   assert(BV5CardText.name("test").name == "test");
 }
+
+/* 		_name = "BV5-card-text";
+		_render = initVueVars~
+				`classes.push('card-text');`~
+				`content=this.$slots.default;`~ 
+				createVueElement("p");
+        */

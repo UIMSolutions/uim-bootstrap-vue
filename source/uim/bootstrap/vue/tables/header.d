@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.tables.header;
+﻿module uim.bootstrap.vue.tables.header;
 
 import uim.bootstrap.vue;
 

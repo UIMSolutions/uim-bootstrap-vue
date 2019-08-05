@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.modals.dialog;
+﻿module uim.bootstrap.vue.modals.dialog;
 
 import uim.bootstrap.vue;
 

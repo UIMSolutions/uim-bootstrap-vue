@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.paginations.link;
+﻿module uim.bootstrap.vue.paginations.link;
 
 import uim.bootstrap.vue;
 

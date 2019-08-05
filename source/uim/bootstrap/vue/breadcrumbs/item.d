@@ -23,3 +23,12 @@ unittest {
   assert(BV5BreadcrumbItem.name == "UimBreadcrumbItem");
   assert(BV5BreadcrumbItem.name("test").name == "test");
 }
+
+/*
+		_props["label"] = "String";
+		_props["active"] = "Boolean";
+		_render = initVueVars~
+			jsIf("this.active", "classes.push('active');")~ // attributes.ariaCurrent='page';")~
+				jsIfElse("this.label", `content.push(this.label);`, "content.push(this.$slots.default);")~
+				createVueElement("li", ["breadcrumb-item"]);
+*/

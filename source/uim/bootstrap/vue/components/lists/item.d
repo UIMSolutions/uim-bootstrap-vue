@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.lists.item;
+﻿module uim.bootstrap.vue.lists.item;
 
 import uim.bootstrap.vue;
 

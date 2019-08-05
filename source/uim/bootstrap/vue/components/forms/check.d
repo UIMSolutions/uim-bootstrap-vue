@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.forms.check;
+﻿module uim.bootstrap.vue.forms.check;
 
 import uim.bootstrap.vue;
 

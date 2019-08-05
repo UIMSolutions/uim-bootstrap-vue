@@ -1,9 +1,9 @@
-﻿module uim.bootstrap.vue.components.navbars;
+﻿module uim.bootstrap.vue.navbars;
 
-public import uim.bootstrap.vue.components.navbars.navbar;
-public import uim.bootstrap.vue.components.navbars.brand;
-public import uim.bootstrap.vue.components.navbars.toggler;
-public import uim.bootstrap.vue.components.navbars.togglericon;
+public import uim.bootstrap.vue.navbars.navbar;
+public import uim.bootstrap.vue.navbars.brand;
+public import uim.bootstrap.vue.navbars.toggler;
+public import uim.bootstrap.vue.navbars.togglericon;
 
 string vueGlobalRegisterNavbars() {
 	return 

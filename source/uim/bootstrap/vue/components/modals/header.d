@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.modals.header;
+﻿module uim.bootstrap.vue.modals.header;
 
 import uim.bootstrap.vue;
 

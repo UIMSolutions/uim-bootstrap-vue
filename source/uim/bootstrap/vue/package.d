@@ -87,7 +87,7 @@ string createVueElement(string tag, string[] classes, string[string] attributes,
 	return results;
 }
 
-string registerAll() {
+/*string registerAll() {
 	return 
 			// vueGlobalRegisterAlerts~
 			//vueGlobalRegisterBadges~
@@ -108,7 +108,7 @@ string registerAll() {
 			BV5Container.globalRegistration~
 			"";
 }
-
+*/
 string registerComponents(DVUEComponent[] components) {
 	string result;
 	foreach(c; components) result~= c.globalRegistration;

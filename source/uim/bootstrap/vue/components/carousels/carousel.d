@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.carousels.carousel;
+﻿module uim.bootstrap.vue.carousels.carousel;
 
 import uim.bootstrap.vue;
 

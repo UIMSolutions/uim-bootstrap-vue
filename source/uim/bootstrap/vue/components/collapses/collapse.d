@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.vue.components.collapses.collapse;
+﻿module uim.bootstrap.vue.collapses.collapse;
 
 import uim.bootstrap.vue;
 
