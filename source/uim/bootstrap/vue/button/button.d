@@ -28,6 +28,9 @@ class DBV5Button : DVUEComponent {
 }
 auto BV5Button() { return new DBV5Button; }
 unittest {    
+  assert(BV5Button.name == "UimButton");
+  assert(BV5Button.name("test").name == "test");
+  assert(BV5Button.template_ == `<button :type="this.type" :class="this.classes" @click="click" :aria-pressed="this.active"><slot /></button>`);
 }
 
 /*
