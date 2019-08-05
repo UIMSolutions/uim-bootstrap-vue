@@ -1,10 +1,10 @@
-module uim.bootstrap.vue.button.group;
+module uim.bootstrap.vue.buttons.group;
 
 public import uim.bootstrap.vue;
 
 // Group a series of buttons together on a single line with the button group. You use this in combincation with `fd-button-group-button`.
 static this() {
-  import uim.bootstrap.vue.button;
+  import uim.bootstrap.vue.buttons;
     vueButtonGroup = VUEComponent
     .name("UimButtonGroup")
     .props("orientation", `{ type: String, default: "horizontal", validator: value => ["horizontal", "vertical"].indexOf(value) >= 0 }`)

@@ -10,7 +10,7 @@ class DBV5Alert : DVUEComponent {
     .props("color", `{ type: String, default: "none", validator: value => ["none","primary", "secondary", "success", "danger", "warning", "info", "light", "dark", "link"].indexOf(value) >= 0 }`)
     .computed("classes()", `return [
     "alert",
-    (this.color !== "none") && (this.outline === "none") ? 'alert-'+this.color : ''
+    this.color !== "none" ? 'alert-'+this.color : ''
     ]`)
     .template_(`<div :class="this.classes"><slot /></div>`);
   }

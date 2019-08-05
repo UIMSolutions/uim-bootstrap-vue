@@ -1,10 +1,10 @@
-module uim.bootstrap.vue.button.link;
+module uim.bootstrap.vue.buttons.link;
 
 public import uim.bootstrap.vue;
 
 // Buttons allow users to perform actions.
 static this() {
-  import uim.bootstrap.vue.button;
+  import uim.bootstrap.vue.buttons;
   vueButtonLink = VUEComponent
     .name("UimButtonLink")
     .props("block", `{ type: Boolean, default: false }`)

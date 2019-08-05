@@ -1,4 +1,4 @@
-module uim.bootstrap.vue.button.button;
+module uim.bootstrap.vue.buttons.button;
 
 public import uim.bootstrap.vue;
 

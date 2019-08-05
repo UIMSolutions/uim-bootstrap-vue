@@ -13,8 +13,9 @@ public import uim.bootstrap.vue.layout;
 public import uim.bootstrap.vue.components;
 
 public import uim.bootstrap.vue.alerts;
-public import uim.bootstrap.vue.breadcrumb;
-public import uim.bootstrap.vue.button;
+public import uim.bootstrap.vue.breadcrumbs;
+public import uim.bootstrap.vue.buttons;
+public import uim.bootstrap.vue.cards;
 public import uim.bootstrap.vue.combobox;
 public import uim.bootstrap.vue.context;
 public import uim.bootstrap.vue.datepicker;
