@@ -2,17 +2,17 @@
 
 import uim.bootstrap.vue;
 
-class DBSVModalHeader: DVUEComponent {
+class DBV5ModalHeader: DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-modal-header";
+		_name = "BV5-modal-header";
 		_render = initVueVars~
 			`content=this.$slots.default;`~ 
 				createVueElement("div", ["modal-header"]);
 	}
 }
-auto BSVModalHeader() { return new DBSVModalHeader; }
+auto BV5ModalHeader() { return new DBV5ModalHeader; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

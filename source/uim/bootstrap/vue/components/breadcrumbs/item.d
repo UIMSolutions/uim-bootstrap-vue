@@ -2,11 +2,11 @@
 
 import uim.bootstrap.vue;
 
-class DBSVBreadCrumbItem: DVUEComponent {
+class DBV5BreadCrumbItem: DVUEComponent {
 	this() {
 		super();
 			
-		_name = "bsv-breadcrumb-item";
+		_name = "BV5-breadcrumb-item";
 		_props["label"] = "String";
 		_props["active"] = "Boolean";
 		_render = initVueVars~
@@ -15,7 +15,7 @@ class DBSVBreadCrumbItem: DVUEComponent {
 				createVueElement("li", ["breadcrumb-item"]);
 	}
 }
-auto BSVBreadCrumbItem() { return new DBSVBreadCrumbItem; }
+auto BV5BreadCrumbItem() { return new DBV5BreadCrumbItem; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

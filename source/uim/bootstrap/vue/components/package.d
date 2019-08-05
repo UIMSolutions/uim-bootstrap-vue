@@ -1,8 +1,7 @@
 ﻿module uim.bootstrap.vue.components;
 
 // uim.bootstrap.vue libraries
-public import uim.bootstrap.vue.components.alerts;
-public import uim.bootstrap.vue.components.badges;
+// public import uim.bootstrap.vue.components.alerts;
 public import uim.bootstrap.vue.components.breadcrumbs;
 public import uim.bootstrap.vue.components.buttons;
 public import uim.bootstrap.vue.components.cards;

@@ -2,11 +2,11 @@
 
 import uim.bootstrap.vue;
 
-class DBSVNavLink : DVUEComponent {
+class DBV5NavLink : DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-nav-link";
+		_name = "BV5-nav-link";
 		_props["link"] = "String";
 		_props["label"] = "String";
 		_props["active"] = "Boolean";
@@ -19,7 +19,7 @@ class DBSVNavLink : DVUEComponent {
 				createVueElement("a", ["nav-link"]);
 	}
 }
-auto BSVNavLink() { return new DBSVNavLink; }
+auto BV5NavLink() { return new DBV5NavLink; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

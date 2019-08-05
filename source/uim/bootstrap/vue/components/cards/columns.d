@@ -2,11 +2,11 @@
 
 import uim.bootstrap.vue;
 
-class DBSVCardColumns : DVUEComponent {
+class DBV5CardColumns : DVUEComponent {
 	this() {
 		super();
 
-		_name = "bsv-card-columns";
+		_name = "BV5-card-columns";
 		_render = ``~initVueVars~
 			`tag='h6';`~
 				`classes.push('card-columns');`~
@@ -15,7 +15,7 @@ class DBSVCardColumns : DVUEComponent {
 				createVueElement("h6");
 	}
 }
-auto BSVCardColumns() { return new DBSVCardColumns; }
+auto BV5CardColumns() { return new DBV5CardColumns; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

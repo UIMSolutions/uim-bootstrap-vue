@@ -2,17 +2,17 @@
 
 import uim.bootstrap.vue;
 
-class DBSVListItem : DVUEComponent {
+class DBV5ListItem : DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-list-item";
+		_name = "BV5-list-item";
 		_render = initVueVars~
 			`content.push(this.$slots.default);`~ 
 			createVueElement("li", ["list-group-item"]);
 	}
 }
-auto BSVListItem() { return new DBSVListItem; }
+auto BV5ListItem() { return new DBV5ListItem; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

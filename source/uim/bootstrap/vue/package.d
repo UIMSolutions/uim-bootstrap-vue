@@ -13,6 +13,7 @@ public import uim.bootstrap.vue.layout;
 public import uim.bootstrap.vue.components;
 
 public import uim.bootstrap.vue.alerts;
+public import uim.bootstrap.vue.badges;
 public import uim.bootstrap.vue.breadcrumbs;
 public import uim.bootstrap.vue.buttons;
 public import uim.bootstrap.vue.cards;
@@ -89,7 +90,7 @@ string createVueElement(string tag, string[] classes, string[string] attributes,
 string registerAll() {
 	return 
 			// vueGlobalRegisterAlerts~
-			vueGlobalRegisterBadges~
+			//vueGlobalRegisterBadges~
 			//vueGlobalRegisterButtons~
 			vueGlobalRegisterCards~
 			vueGlobalRegisterCarousels~
@@ -103,8 +104,8 @@ string registerAll() {
 			vueGlobalRegisterProgresses~
 			vueGlobalRegisterTabs~
 			vueGlobalRegisterTables~
-			BSVRow.globalRegistration~
-			BSVContainer.globalRegistration~
+			BV5Row.globalRegistration~
+			BV5Container.globalRegistration~
 			"";
 }
 

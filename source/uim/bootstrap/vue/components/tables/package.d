@@ -9,10 +9,10 @@ public import uim.bootstrap.vue.components.tables.table;
 
 string vueGlobalRegisterTables() {
 	return 
-		BSVTableHead.globalRegistration~
-			BSVTableHeader.globalRegistration~
-			BSVTableCell.globalRegistration~
-			BSVTableBody.globalRegistration~
-			BSVTableRow.globalRegistration~
-			BSVTable.globalRegistration;
+		BV5TableHead.globalRegistration~
+			BV5TableHeader.globalRegistration~
+			BV5TableCell.globalRegistration~
+			BV5TableBody.globalRegistration~
+			BV5TableRow.globalRegistration~
+			BV5Table.globalRegistration;
 }

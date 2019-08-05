@@ -2,11 +2,11 @@
 
 import uim.bootstrap.vue;
 
-class DBSVTable : DVUEComponent {
+class DBV5Table : DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-table";
+		_name = "BV5-table";
 		_props["size"] = "String";
 		_props["light"] = "Boolean";
 		_props["dark"] = "Boolean";
@@ -48,7 +48,7 @@ class DBSVTable : DVUEComponent {
 				createVueElement("table", ["table"]);
 	}
 }
-auto BSVTable() { return new DBSVTable; }
+auto BV5Table() { return new DBV5Table; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

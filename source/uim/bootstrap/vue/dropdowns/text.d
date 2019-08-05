@@ -1,20 +1,20 @@
-﻿module uim.bootstrap.vue.components.dropdowns.text;
+﻿module uim.bootstrap.vue.dropdowns.text;
 
 import uim.bootstrap.vue;
 
-class DBSVDropdownText : DVUEComponent {
+class DBV5DropdownText : DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-dropdown-text";
+		_name = "BV5-dropdown-text";
 		_props["label"] = "String";
 		_render = initVueVars~
 				jsIfElse("this.label", "content.push(this.label)", `content=this.$slots.default;`)~ 
 				createVueElement("span", ["dropdown-item-text"]);
 	}
 }
-auto BSVDropdownText() { return new DBSVDropdownText; }
+auto BV5DropdownText() { return new DBV5DropdownText; }
 
 unittest {
-	assert(BSVDropdownText.name == "bsv-dropdown-item");
+	assert(BV5DropdownText.name == "BV5-dropdown-item");
 }	

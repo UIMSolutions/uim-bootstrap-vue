@@ -1,12 +1,12 @@
-﻿module uim.bootstrap.vue.components.dropdowns.menu;
+﻿module uim.bootstrap.vue.dropdowns.menu;
 
 import uim.bootstrap.vue;
 
-class DBSVDropdownMenu : DVUEComponent {
+class DBV5DropdownMenu : DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-dropdown-menu";
+		_name = "BV5-dropdown-menu";
 		_props["label"] = "String";
 		_props["position"] = "String";
 		_render = initVueVars~
@@ -16,9 +16,9 @@ class DBSVDropdownMenu : DVUEComponent {
 				createVueElement("div", ["dropdown-menu"]);
 	}
 }
-auto BSVDropdownMenu() { return new DBSVDropdownMenu; }
+auto BV5DropdownMenu() { return new DBV5DropdownMenu; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	
-	assert(BSVDropdownMenu.name == "bsv-dropdown-menu");
+	assert(BV5DropdownMenu.name == "BV5-dropdown-menu");
 }	

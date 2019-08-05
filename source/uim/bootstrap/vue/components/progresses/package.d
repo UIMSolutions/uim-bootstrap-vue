@@ -5,6 +5,6 @@ public import uim.bootstrap.vue.components.progresses.bar;
 
 string vueGlobalRegisterProgresses() {
 	return 
-		BSVProgressBar.globalRegistration~
-			BSVProgress.globalRegistration;
+		BV5ProgressBar.globalRegistration~
+			BV5Progress.globalRegistration;
 }

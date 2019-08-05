@@ -2,17 +2,17 @@
 
 import uim.bootstrap.vue;
 
-class DBSVModalTitle: DVUEComponent {
+class DBV5ModalTitle: DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-modal-title";
+		_name = "BV5-modal-title";
 		_render = initVueVars~
 			`content=this.$slots.default;`~ 
 				createVueElement("div", ["modal-title"]);
 	}
 }
-auto BSVModalTitle() { return new DBSVModalTitle; }
+auto BV5ModalTitle() { return new DBV5ModalTitle; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

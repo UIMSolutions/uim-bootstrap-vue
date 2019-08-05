@@ -2,12 +2,12 @@
 
 import uim.bootstrap.vue;
 
-class DBSVTab : DVUEComponent {
+class DBV5Tab : DVUEComponent {
 	this() {
 		super();
 	}
 }
-auto BSVTab() { return new DBSVTab; }
+auto BV5Tab() { return new DBV5Tab; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

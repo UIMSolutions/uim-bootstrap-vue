@@ -2,17 +2,17 @@
 
 import uim.bootstrap.vue;
 
-class DBSVModal: DVUEComponent {
+class DBV5Modal: DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-modal";
+		_name = "BV5-modal";
 		_render = initVueVars~
 			`content=this.$slots.default;`~ 
 				createVueElement("div", ["modal"], ["tabindex":"-1", "role":"dialog"]);
 	}
 }
-auto BSVModal() { return new DBSVModal; }
+auto BV5Modal() { return new DBV5Modal; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

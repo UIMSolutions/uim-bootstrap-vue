@@ -2,17 +2,14 @@
 
 import uim.bootstrap.vue;
 
-class DBSVCardBody : DVUEComponent {
+class DBV5CardBody : DVUEComponent {
 	this() {
 		super();
 
-		_name = "bsv-card-body";
-		_render = initVueVars~
-				`content.push(this.$slots.default);`~ 
-				createVueElement("div", ["card-body"]);
+
 	}
 }
-auto BSVCardBody() { return new DBSVCardBody; }
+auto BV5CardBody() { return new DBV5CardBody; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

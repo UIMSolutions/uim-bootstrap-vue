@@ -1,19 +1,19 @@
-﻿module uim.bootstrap.vue.components.dropdowns.header;
+﻿module uim.bootstrap.vue.dropdowns.header;
 
 import uim.bootstrap.vue;
 
-class DBSVDropdownHeader : DVUEComponent {
+class DBV5DropdownHeader : DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-dropdown-header";
+		_name = "BV5-dropdown-header";
 		_props["label"] = "String";
 		_render = initVueVars~
 				jsIfElse("this.label", "content.push(this.label)", `content=this.$slots.default;`)~ 
 				createVueElement("h6", ["dropdown-header"]);
 	}
 }
-auto BSVDropdownHeader() { return new DBSVDropdownHeader; }
+auto BV5DropdownHeader() { return new DBV5DropdownHeader; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

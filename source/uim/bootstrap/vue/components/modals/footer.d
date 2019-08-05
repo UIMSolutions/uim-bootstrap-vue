@@ -2,17 +2,17 @@
 
 import uim.bootstrap.vue;
 
-class DBSVModalFooter: DVUEComponent {
+class DBV5ModalFooter: DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-modal-footer";
+		_name = "BV5-modal-footer";
 		_render = initVueVars~
 			`content=this.$slots.default;`~ 
 				createVueElement("div", ["modal-footer"]);
 	}
 }
-auto BSVModalFooter() { return new DBSVModalFooter; }
+auto BV5ModalFooter() { return new DBV5ModalFooter; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

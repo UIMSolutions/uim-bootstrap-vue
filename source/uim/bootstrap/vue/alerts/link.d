@@ -18,6 +18,6 @@ class DBV5AlertLink : DVUEComponent {
 mixin(BV5Shortcut!"AlertLink");
 
 unittest {
-  assert(DBV5AlertLink.name == "UimAlertLink");
-  assert(DBV5AlertLink.name("test").name == "test");
+  assert(BV5AlertLink.name == "UimAlertLink");
+  assert(BV5AlertLink.name("test").name == "test");
 }

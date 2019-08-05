@@ -17,6 +17,6 @@ class DBV5AlertHeading : DVUEComponent {
 mixin(BV5Shortcut!"AlertHeading");
 
 unittest {
-  assert(DBV5AlertHeading.name == "UimAlertHeading");
-  assert(DBV5AlertHeading.name("test").name == "test");
+  assert(BV5AlertHeading.name == "UimAlertHeading");
+  assert(BV5AlertHeading.name("test").name == "test");
 }

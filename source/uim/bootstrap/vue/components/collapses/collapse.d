@@ -2,17 +2,17 @@
 
 import uim.bootstrap.vue;
 
-class DBSVCollapse : DVUEComponent {
+class DBV5Collapse : DVUEComponent {
 	this() {
 		super(); 
 		
-		_name = "bsv-collapse";
+		_name = "BV5-collapse";
 		_render = initVueVars~
 			`content.push(this.$slots.default);`~ 
 				createVueElement("a", ["collapse"]);
 	}
 }
-auto BSVCollapse() { return new DBSVCollapse; }
+auto BV5Collapse() { return new DBV5Collapse; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

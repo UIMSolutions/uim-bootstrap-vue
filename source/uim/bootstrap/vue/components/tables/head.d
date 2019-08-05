@@ -2,17 +2,17 @@
 
 import uim.bootstrap.vue;
 
-class DBSVTableHead : DVUEComponent {
+class DBV5TableHead : DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-table-head";
+		_name = "BV5-table-head";
 		_render = initVueVars~
 				`content.push(this.$slots.default);`~ 
 				createVueElement("th");
 	}
 }
-auto BSVTableHead() { return new DBSVTableHead; }
+auto BV5TableHead() { return new DBV5TableHead; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

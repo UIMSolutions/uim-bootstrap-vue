@@ -2,11 +2,11 @@
 
 import uim.bootstrap.vue;
 
-class DBSVButtonGroup : DVUEComponent {
+class DBV5ButtonGroup : DVUEComponent {
 	this() {
 		super(); 
 		
-		_name = "bsv-button-group";
+		_name = "BV5-button-group";
 		_props["label"] = "String";
 		_props["size"] = "String";
 		_props["vertical"] = "Boolean";
@@ -21,7 +21,7 @@ class DBSVButtonGroup : DVUEComponent {
 				createVueElement("div", ["role":"group"]);
 	}
 }
-auto BSVButtonGroup() { return new DBSVButtonGroup; }
+auto BV5ButtonGroup() { return new DBV5ButtonGroup; }
 
 unittest {
 }

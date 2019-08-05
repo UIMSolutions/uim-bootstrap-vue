@@ -2,11 +2,11 @@
 
 import uim.bootstrap.vue;
 
-class DBSVRow : DVUEComponent {
+class DBV5Row : DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-row";
+		_name = "BV5-row";
 		_props["textColor"] = "String";
 		_props["bgColor"] = "String";
 		_render = initVueVars~
@@ -18,7 +18,7 @@ class DBSVRow : DVUEComponent {
 				createVueElement;
 	}
 }
-auto BSVRow() { return new DBSVRow; }
+auto BV5Row() { return new DBV5Row; }
 
 unittest {
 }	

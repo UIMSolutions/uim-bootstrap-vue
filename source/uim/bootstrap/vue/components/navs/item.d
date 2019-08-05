@@ -2,17 +2,17 @@
 
 import uim.bootstrap.vue;
 
-class DBSVNavItem : DVUEComponent {
+class DBV5NavItem : DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-nav-item";
+		_name = "BV5-nav-item";
 		_render = initVueVars~
 				`content=this.$slots.default;`~ 
 				createVueElement("li", ["nav-item"]);
 	}
 }
-auto BSVNavItem() { return new DBSVNavItem; }
+auto BV5NavItem() { return new DBV5NavItem; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

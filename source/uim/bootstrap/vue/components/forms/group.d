@@ -2,17 +2,17 @@
 
 import uim.bootstrap.vue;
 
-class DBSVFormGroup : DVUEComponent {
+class DBV5FormGroup : DVUEComponent {
 	this() {
 		super(); 
 		
-		_name = "bsv-form-group";
+		_name = "BV5-form-group";
 		_render = initVueVars~
 			`content.push(this.$slots.default);`~ 
 				createVueElement("div", ["form-group"]);
 	}
 }
-auto BSVFormGroup() { return new DBSVFormGroup; }
+auto BV5FormGroup() { return new DBV5FormGroup; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

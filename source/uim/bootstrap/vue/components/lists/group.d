@@ -2,11 +2,11 @@
 
 import uim.bootstrap.vue;
 
-class DBSVListGroup : DVUEComponent {
+class DBV5ListGroup : DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-list-group";
+		_name = "BV5-list-group";
 		_props["type"] = "String";
 		_props["flush"] = "Boolean";
 		_render = initVueVars~
@@ -15,7 +15,7 @@ class DBSVListGroup : DVUEComponent {
 			createVueElement("ul", ["list-group"]);
 	}
 }
-auto BSVListGroup() { return new DBSVListGroup; }
+auto BV5ListGroup() { return new DBV5ListGroup; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

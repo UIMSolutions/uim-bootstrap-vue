@@ -1,20 +1,20 @@
-﻿module uim.bootstrap.vue.components.dropdowns.button;
+﻿module uim.bootstrap.vue.dropdowns.button;
 
 import uim.bootstrap.vue;
 
-class DBSVDropdownButton : DVUEComponent {
+class DBV5DropdownButton : DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-dropdown-button";
+		_name = "BV5-dropdown-button";
 		_props["label"] = "String";
 		_render = initVueVars~
 				jsIfElse("this.label", "content.push(this.label)", `content=this.$slots.default;`)~ 
 				createVueElement("button", ["dropdown-item"], ["type":"button"]);
 	}
 }
-auto BSVDropdownButton() { return new DBSVDropdownButton; }
+auto BV5DropdownButton() { return new DBV5DropdownButton; }
 
 unittest {
-	assert(BSVDropdownButton.name == "bsv-dropdown-item");
+	assert(BV5DropdownButton.name == "BV5-dropdown-item");
 }	

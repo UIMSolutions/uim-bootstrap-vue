@@ -2,15 +2,15 @@
 
 import uim.bootstrap.vue;
 
-class DBSVNav : DVUEComponent {
+class DBV5Nav : DVUEComponent {
 	this() {
 		super();
-		_name = "bsv-nav";
+		_name = "BV5-nav";
 		_render = initVueVars~
 			`content=this.$slots.default;`~ 
 				createVueElement("ul", ["nav"]);	}
 }
-auto BSVNav() { return new DBSVNav; }
+auto BV5Nav() { return new DBV5Nav; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

@@ -6,7 +6,7 @@ public import uim.bootstrap.vue.components.forms.group;
 
 string vueGlobalRegisterForms() {
 	return 
-		BSVFormCheck.globalRegistration~
-			BSVFormGroup.globalRegistration~
-			BSVForm.globalRegistration;
+		BV5FormCheck.globalRegistration~
+			BV5FormGroup.globalRegistration~
+			BV5Form.globalRegistration;
 }

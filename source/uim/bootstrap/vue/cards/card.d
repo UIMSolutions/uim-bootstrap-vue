@@ -16,6 +16,19 @@ class DBV5Card : DVUEComponent {
 mixin(BV5Shortcut!"Card");
 
 unittest {
-  assert(DBV5Card.name == "UimCard");
-  assert(DBV5Card.name("test").name == "test");
+  assert(BV5Card.name == "UimCard");
+  assert(BV5Card.name("test").name == "test");
 }
+
+		_name = "BV5-card";
+		this.props("textColor", "String")
+		.props("bgColor", "String")
+		.props("block", "Boolean")
+		.props("inverse", "Boolean");
+		_render = initVueVars~
+				`content=this.$slots.default;`~ 
+				jsIf("this.textColor", "classes.push('text-'+this.textColor);")~ 
+				jsIf("this.bgColor", "classes.push('bg-'+this.bgColor);")~
+				jsIf("this.block", "classes.push('card-block');")~ 
+				jsIf("this.inverse", "classes.push('card-inverse');")~
+				createVueElement("div", ["card"]);

@@ -5,6 +5,6 @@ public import uim.bootstrap.vue.components.lists.group;
 
 string vueGlobalRegisterLists() {
 	return 
-		BSVListGroup.globalRegistration~
-		BSVListItem.globalRegistration;
+		BV5ListGroup.globalRegistration~
+		BV5ListItem.globalRegistration;
 }

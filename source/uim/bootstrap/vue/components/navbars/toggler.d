@@ -2,17 +2,17 @@
 
 import uim.bootstrap.vue;
 
-class DBSVNavbarToggler : DVUEComponent {
+class DBV5NavbarToggler : DVUEComponent {
 	this() {
 		super(); 
 		
-		_name = "bsv-navbar-toggler";
+		_name = "BV5-navbar-toggler";
 		_render = initVueVars~
 			`content.push(this.$slots.default);`~ 
 				createVueElement("button", ["navbar-toggler"]);
 	}
 }
-auto BSVNavbarToggler() { return new DBSVNavbarToggler; }
+auto BV5NavbarToggler() { return new DBV5NavbarToggler; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

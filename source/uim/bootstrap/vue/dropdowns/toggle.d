@@ -1,12 +1,12 @@
-﻿module uim.bootstrap.vue.components.dropdowns.toggle;
+﻿module uim.bootstrap.vue.dropdowns.toggle;
 
 import uim.bootstrap.vue;
 
-class DBSVDropdownToggle : DVUEComponent {
+class DBV5DropdownToggle : DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-dropdown-toggle";
+		_name = "BV5-dropdown-toggle";
 		_props["id"] = "String";
 		_props["label"] = "String";
 		_props["color"] = "String";
@@ -18,7 +18,7 @@ class DBSVDropdownToggle : DVUEComponent {
 		createVueElement("button", ["btn", "dropdown-toggle"], ["type":"button"]);
 	}
 }
-auto BSVDropdownToggle() { return new DBSVDropdownToggle; }
+auto BV5DropdownToggle() { return new DBV5DropdownToggle; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

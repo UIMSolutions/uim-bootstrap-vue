@@ -1,12 +1,12 @@
-﻿module uim.bootstrap.vue.components.dropdowns.link;
+﻿module uim.bootstrap.vue.dropdowns.link;
 
 import uim.bootstrap.vue;
 
-class DBSVDropdownLink : DVUEComponent {
+class DBV5DropdownLink : DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-dropdown-link";
+		_name = "BV5-dropdown-link";
 		_props["link"] = "String";
 		_props["label"] = "String";
 		_render = initVueVars~
@@ -15,9 +15,9 @@ class DBSVDropdownLink : DVUEComponent {
 				createVueElement("a", ["dropdown-item"]);
 	}
 }
-auto BSVDropdownLink() { return new DBSVDropdownLink; }
+auto BV5DropdownLink() { return new DBV5DropdownLink; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	
-	assert(BSVDropdownLink.name == "bsv-dropdown-item");
+	assert(BV5DropdownLink.name == "BV5-dropdown-item");
 }	

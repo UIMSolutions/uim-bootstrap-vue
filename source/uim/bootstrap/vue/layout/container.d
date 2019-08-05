@@ -2,11 +2,11 @@
 
 import uim.bootstrap.vue;
 
-class DBSVContainer : DVUEComponent {
+class DBV5Container : DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-container";
+		_name = "BV5-container";
 		_props["textColor"] = "String";
 		_props["bgColor"] = "String";
 		_props["fluid"] = "Boolean";
@@ -18,7 +18,7 @@ class DBSVContainer : DVUEComponent {
 				createVueElement("div");
 	}
 }
-auto BSVContainer() { return new DBSVContainer; }
+auto BV5Container() { return new DBV5Container; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

@@ -4,5 +4,5 @@ public import uim.bootstrap.vue.components.tabs.tab;
 
 string vueGlobalRegisterTabs() {
 	return 
-			BSVTab.globalRegistration;
+			BV5Tab.globalRegistration;
 }

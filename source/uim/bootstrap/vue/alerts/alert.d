@@ -26,7 +26,7 @@ unittest {
 }
 /* 
 
-		_name = "bsv-alert";
+		_name = "BV5-alert";
 		_props["color"] = "String";
 		_render = initVueVars~
 				jsIfElse("this.color", "classes.push('alert-'+this.color);", "classes.push('alert-primary');")~

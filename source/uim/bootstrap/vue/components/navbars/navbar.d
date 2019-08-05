@@ -2,11 +2,11 @@
 
 import uim.bootstrap.vue;
 
-class DBSVNavbar : DVUEComponent {
+class DBV5Navbar : DVUEComponent {
 	this() {
 		super(); 
 		
-		_name = "bsv-navbar";
+		_name = "BV5-navbar";
 		_props["dark"] = "Boolean";
 		_props["light"] = "Boolean";
 		_render = initVueVars~
@@ -16,7 +16,7 @@ class DBSVNavbar : DVUEComponent {
 				createVueElement("nav", ["navbar"]);
 	}
 }
-auto BSVNavbar() { return new DBSVNavbar; }
+auto BV5Navbar() { return new DBV5Navbar; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

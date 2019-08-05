@@ -2,17 +2,17 @@
 
 import uim.bootstrap.vue;
 
-class DBSVCardHeader : DVUEComponent {
+class DBV5CardHeader : DVUEComponent {
 	this() {
 		super();
 
-		_name = "bsv-card-header";
+		_name = "BV5-card-header";
 		_render = initVueVars~
 				`content=this.$slots.default;`~ 
 				createVueElement("div", ["card-header"]);
 	}
 }
-auto BSVCardHeader() { return new DBSVCardHeader; }
+auto BV5CardHeader() { return new DBV5CardHeader; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

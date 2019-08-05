@@ -2,11 +2,11 @@
 
 import uim.bootstrap.vue;
 
-class DBSVTableHeader : DVUEComponent {
+class DBV5TableHeader : DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-table-header";
+		_name = "BV5-table-header";
 		_props["light"] = "Boolean";
 		_props["dark"] = "Boolean";
 		_render = initVueVars~
@@ -16,7 +16,7 @@ class DBSVTableHeader : DVUEComponent {
 				createVueElement("thead");
 	}
 }
-auto BSVTableHeader() { return new DBSVTableHeader; }
+auto BV5TableHeader() { return new DBV5TableHeader; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

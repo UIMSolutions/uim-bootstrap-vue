@@ -2,11 +2,11 @@
 
 import uim.bootstrap.vue;
 
-class DBSVCardTitle : DVUEComponent {
+class DBV5CardTitle : DVUEComponent {
 	this() {
 		super();
 
-		_name = "bsv-card-title";
+		_name = "BV5-card-title";
 		_render = initVueVars~
 			`tag='h4';`~
 				`classes.push('card-title');`~
@@ -14,7 +14,7 @@ class DBSVCardTitle : DVUEComponent {
 				createVueElement("h4");
 	}
 }
-auto BSVCardTitle() { return new DBSVCardTitle; }
+auto BV5CardTitle() { return new DBV5CardTitle; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

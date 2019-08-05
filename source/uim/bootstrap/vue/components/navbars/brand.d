@@ -2,11 +2,11 @@
 
 import uim.bootstrap.vue;
 
-class DBSVNavbarBrand : DVUEComponent {
+class DBV5NavbarBrand : DVUEComponent {
 	this() {
 		super(); 
 		
-		_name = "bsv-navbar-brand";
+		_name = "BV5-navbar-brand";
 		_props["link"] = "String";
 		_render = initVueVars~
 			`content.push(this.$slots.default);`~ 
@@ -14,7 +14,7 @@ class DBSVNavbarBrand : DVUEComponent {
 				createVueElement("a", ["navbar-brand"]);
 	}
 }
-auto BSVNavbarBrand() { return new DBSVNavbarBrand; }
+auto BV5NavbarBrand() { return new DBV5NavbarBrand; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

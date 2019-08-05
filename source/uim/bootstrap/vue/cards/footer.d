@@ -1,4 +1,4 @@
-module uim.bootstrap.vue.cards.fFooter;
+module uim.bootstrap.vue.cards.footer;
 
 public import uim.bootstrap.vue;
 
@@ -19,3 +19,9 @@ unittest {
   assert(BV5CardFooter.name == "UimCardFooter");
   assert(BV5CardFooter.name("test").name == "test");
 }
+
+/* 
+		_render = initVueVars~
+				`content=this.$slots.default;`~ 
+				createVueElement("div", ["card-footer"]);
+        */

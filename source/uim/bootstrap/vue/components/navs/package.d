@@ -6,7 +6,7 @@ public import uim.bootstrap.vue.components.navs.item;
 
 string vueGlobalRegisterNavs() {
 	return 
-		BSVNavLink.globalRegistration~
-			BSVNavItem.globalRegistration~
-			BSVNav.globalRegistration;
+		BV5NavLink.globalRegistration~
+			BV5NavItem.globalRegistration~
+			BV5Nav.globalRegistration;
 }

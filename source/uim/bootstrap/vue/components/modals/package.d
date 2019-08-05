@@ -10,11 +10,11 @@ public import uim.bootstrap.vue.components.modals.body_;
 
 string vueGlobalRegisterModals() {
 	return 
-		BSVModalTitle.globalRegistration~
-			BSVModalContent.globalRegistration~
-			BSVModalDialog.globalRegistration~
-			BSVModalHeader.globalRegistration~
-			BSVModalFooter.globalRegistration~
-			BSVModalBody.globalRegistration~
-			BSVModal.globalRegistration;
+		BV5ModalTitle.globalRegistration~
+			BV5ModalContent.globalRegistration~
+			BV5ModalDialog.globalRegistration~
+			BV5ModalHeader.globalRegistration~
+			BV5ModalFooter.globalRegistration~
+			BV5ModalBody.globalRegistration~
+			BV5Modal.globalRegistration;
 }

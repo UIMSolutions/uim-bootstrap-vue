@@ -2,17 +2,17 @@
 
 import uim.bootstrap.vue;
 
-class DBSVTableBody : DVUEComponent {
+class DBV5TableBody : DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-table-body";
+		_name = "BV5-table-body";
 		_render = initVueVars~
 				`content.push(this.$slots.default);`~ 
 				createVueElement("tbody");
 	}
 }
-auto BSVTableBody() { return new DBSVTableBody; }
+auto BV5TableBody() { return new DBV5TableBody; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

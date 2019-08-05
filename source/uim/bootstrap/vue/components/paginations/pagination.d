@@ -2,11 +2,11 @@
 
 import uim.bootstrap.vue;
 
-class DBSVPagination: DVUEComponent {
+class DBV5Pagination: DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-pagination";
+		_name = "BV5-pagination";
 		_props["size"] = "String";
 		_props["position"] = "String";
 		_render = initVueVars~
@@ -16,7 +16,7 @@ class DBSVPagination: DVUEComponent {
 				createVueElement("ul", ["pagination"]);
 	}
 }
-auto BSVPagination() { return new DBSVPagination; }
+auto BV5Pagination() { return new DBV5Pagination; }
 
 unittest {
 }	

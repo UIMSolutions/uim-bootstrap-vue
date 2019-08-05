@@ -2,11 +2,11 @@
 
 import uim.bootstrap.vue;
 
-class DBSVProgressBar: DVUEComponent {
+class DBV5ProgressBar: DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-progress-bar";
+		_name = "BV5-progress-bar";
 		_props["textColor"] = "String";
 		_props["bgColor"] = "String";
 		_props["striped"] = "Boolean";
@@ -20,7 +20,7 @@ class DBSVProgressBar: DVUEComponent {
 				createVueElement("div", ["progress-bar"]);
 	}
 }
-auto BSVProgressBar() { return new DBSVProgressBar; }
+auto BV5ProgressBar() { return new DBV5ProgressBar; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

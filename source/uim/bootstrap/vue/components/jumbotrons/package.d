@@ -4,5 +4,5 @@ public import uim.bootstrap.vue.components.jumbotrons.jumbotron;
 
 string vueGlobalRegisterJumbotrons() {
 	return 
-			BSVJumbotron.globalRegistration;
+			BV5Jumbotron.globalRegistration;
 }

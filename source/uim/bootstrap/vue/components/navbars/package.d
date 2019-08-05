@@ -7,8 +7,8 @@ public import uim.bootstrap.vue.components.navbars.togglericon;
 
 string vueGlobalRegisterNavbars() {
 	return 
-		BSVNavbarBrand.globalRegistration~
-			BSVNavbarToggler.globalRegistration~
-			BSVNavbarTogglerIcon.globalRegistration~
-			BSVNavbar.globalRegistration;
+		BV5NavbarBrand.globalRegistration~
+			BV5NavbarToggler.globalRegistration~
+			BV5NavbarTogglerIcon.globalRegistration~
+			BV5Navbar.globalRegistration;
 }

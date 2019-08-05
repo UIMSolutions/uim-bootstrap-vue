@@ -2,11 +2,11 @@
 
 import uim.bootstrap.vue;
 
-class DBSVCardImage : DVUEComponent {
+class DBV5CardImage : DVUEComponent {
 	this() {
 		super();
 
-		_name = "bsv-card-img";
+		_name = "BV5-card-img";
 		_props["position"] = "String";
 
 		_render = initVueVars~
@@ -15,7 +15,7 @@ class DBSVCardImage : DVUEComponent {
 				createVueElement("img");
 	}
 }
-auto BSVCardImage() { return new DBSVCardImage; }
+auto BV5CardImage() { return new DBV5CardImage; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

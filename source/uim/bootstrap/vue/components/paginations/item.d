@@ -2,11 +2,11 @@
 
 import uim.bootstrap.vue;
 
-class DBSVPageItem: DVUEComponent {
+class DBV5PageItem: DVUEComponent {
 	this() {
 		super();
 		
-		_name = "bsv-page-item";
+		_name = "BV5-page-item";
 		_props["active"] = "Boolean";
 		_props["disabled"] = "Boolean";
 		_render = initVueVars~
@@ -16,7 +16,7 @@ class DBSVPageItem: DVUEComponent {
 				createVueElement("li", ["page-item"]);
 	}
 }
-auto BSVPageItem() { return new DBSVPageItem; }
+auto BV5PageItem() { return new DBV5PageItem; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

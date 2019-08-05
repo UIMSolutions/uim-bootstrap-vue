@@ -2,18 +2,18 @@
 
 import uim.bootstrap.vue;
 
-class DBSVCardText : DVUEComponent {
+class DBV5CardText : DVUEComponent {
 	this() {
 		super();
 
-		_name = "bsv-card-text";
+		_name = "BV5-card-text";
 		_render = initVueVars~
 				`classes.push('card-text');`~
 				`content=this.$slots.default;`~ 
 				createVueElement("p");
 	}
 }
-auto BSVCardText() { return new DBSVCardText; }
+auto BV5CardText() { return new DBV5CardText; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

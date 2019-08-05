@@ -2,11 +2,11 @@
 
 import uim.bootstrap.vue;
 
-class DBSVCardDeck : DVUEComponent {
+class DBV5CardDeck : DVUEComponent {
 	this() {
 		super();
 
-		_name = "bsv-card-deck";
+		_name = "BV5-card-deck";
 		_render = ``~initVueVars~
 			`tag='div';`~
 				`classes.push('card-deck');`~
@@ -14,7 +14,7 @@ class DBSVCardDeck : DVUEComponent {
 				createVueElement;
 	}
 }
-auto BSVCardDeck() { return new DBSVCardDeck; }
+auto BV5CardDeck() { return new DBV5CardDeck; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

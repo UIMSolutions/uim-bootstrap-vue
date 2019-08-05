@@ -13,14 +13,14 @@ public import uim.bootstrap.vue.components.cards.title;
 
 string vueGlobalRegisterCards() {
 	return 
-		BSVCardTitle.globalRegistration~
-			BSVCardText.globalRegistration~
-			BSVCardSubtitle.globalRegistration~
-			BSVCardImage.globalRegistration~
-			BSVCardHeader.globalRegistration~
-			BSVCardFooter.globalRegistration~
-			BSVCardDeck.globalRegistration~
-			BSVCardColumns.globalRegistration~
-			BSVCardBody.globalRegistration~
-			BSVCard.globalRegistration;
+		BV5CardTitle.globalRegistration~
+			BV5CardText.globalRegistration~
+			BV5CardSubtitle.globalRegistration~
+			BV5CardImage.globalRegistration~
+			BV5CardHeader.globalRegistration~
+			BV5CardFooter.globalRegistration~
+			BV5CardDeck.globalRegistration~
+			BV5CardColumns.globalRegistration~
+			BV5CardBody.globalRegistration~
+			BV5Card.globalRegistration;
 }

@@ -18,6 +18,6 @@ class DBV5BreadcrumbLink : DVUEComponent {
 mixin(BV5Shortcut!"BreadcrumbLink");
 
 unittest {
-  assert(DBV5BreadcrumbLink.name == "UimBreadcrumbLink");
-  assert(DBV5BreadcrumbLink.name("test").name == "test");
+  assert(BV5BreadcrumbLink.name == "UimBreadcrumbLink");
+  assert(BV5BreadcrumbLink.name("test").name == "test");
 }

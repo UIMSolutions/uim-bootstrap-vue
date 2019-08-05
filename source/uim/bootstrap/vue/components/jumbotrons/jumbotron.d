@@ -2,11 +2,11 @@
 
 import uim.bootstrap.vue;
 
-class DBSVJumbotron : DVUEComponent {
+class DBV5Jumbotron : DVUEComponent {
 	this() {
 		super(); 
 		
-		_name = "bsv-jumbotron";
+		_name = "BV5-jumbotron";
 		_props["fluid"] = "Boolean";
 		_render = initVueVars~
 			`content.push(this.$slots.default);`~ 
@@ -14,7 +14,7 @@ class DBSVJumbotron : DVUEComponent {
 				createVueElement("div", ["jumbotron"]);
 	}
 }
-auto BSVJumbotron() { return new DBSVJumbotron; }
+auto BV5Jumbotron() { return new DBV5Jumbotron; }
 
 unittest {
 	writeln("Testing ", __MODULE__);	

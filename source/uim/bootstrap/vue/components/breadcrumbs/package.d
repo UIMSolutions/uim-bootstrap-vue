@@ -5,6 +5,6 @@ public import uim.bootstrap.vue.components.breadcrumbs.item;
 
 string vueGlobalRegisterBreadcrumbs() {
 	return 
-			BSVBreadCrumbItem.globalRegistration~
-			BSVBreadCrumb.globalRegistration;
+			BV5BreadCrumbItem.globalRegistration~
+			BV5BreadCrumb.globalRegistration;
 }
