@@ -87,7 +87,7 @@ string createVueElement(string tag, string[] classes, string[string] attributes,
 
 string registerAll() {
 	return 
-			vueGlobalRegisterAlerts~
+			// vueGlobalRegisterAlerts~
 			vueGlobalRegisterBadges~
 			//vueGlobalRegisterButtons~
 			vueGlobalRegisterCards~
@@ -111,4 +111,13 @@ string registerComponents(DVUEComponent[] components) {
 	string result;
 	foreach(c; components) result~= c.globalRegistration;
 	return result;
+}
+
+template BV5Shortcut(string name) {
+	const char[] BV5Shortcut = `
+auto BV5`~name~`() { return new DBV5`~name~`(); }
+auto BV5`~name~`(string aName) { return new DBV5`~name~`(aName); }
+auto BV5`~name~`(DVUEApp anApp) { return new DBV5`~name~`(anApp); }
+auto BV5`~name~`(DVUEApp anApp, string aName) { return new DBV5`~name~`(anApp, aName); }
+`; 
 }

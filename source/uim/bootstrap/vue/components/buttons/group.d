@@ -24,5 +24,4 @@ class DBSVButtonGroup : DVUEComponent {
 auto BSVButtonGroup() { return new DBSVButtonGroup; }
 
 unittest {
-	writeln("Testing ", __MODULE__);
 }

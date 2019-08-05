@@ -1,12 +1,11 @@
-module uim.bootstrap.vue.alert;
+module uim.bootstrap.vue.alerts.alert;
 
 public import uim.bootstrap.vue;
 
 // Alerts provide messages within the application that are color-coded to emphasize the level of urgency. Supports 'v-model'.
-static this() {
-    uim.bootstrap.vue.
-    vueAlert = VUEComponent.
-        template_(`
+class DBV5Alert : DVUEComponent {
+  this() {
+        this.template_(`
 <transition name="fade">
     <div :id="uid" v-show="currentVisible" :class="classes" role="alert">
       <button
@@ -85,6 +84,22 @@ export default {
   }
 };
     `); 
+  }
+	this(DVUEApp anApp) { this(); _app = anApp; }
+	this(string aName) { this(); _name = aName; }
+	this(DVUEApp anApp, string aName) { this(anApp); _name = aName; }
 }
+mixin(BV5Shortcut!"Alert");
+
 unittest {
+  assert(BV5Alert);
+  assert(BV5Alert.name("test").name == "test");
 }
+/* 
+
+		_name = "bsv-alert";
+		_props["color"] = "String";
+		_render = initVueVars~
+				jsIfElse("this.color", "classes.push('alert-'+this.color);", "classes.push('alert-primary');")~
+				createVueElement("div", ["alert"]);
+        */
