@@ -7,7 +7,6 @@ public import uim.bootstrap.vue.components.buttons;
 public import uim.bootstrap.vue.components.cards;
 public import uim.bootstrap.vue.components.carousels;
 public import uim.bootstrap.vue.components.collapses;
-public import uim.bootstrap.vue.components.dropdowns;
 public import uim.bootstrap.vue.components.forms;
 public import uim.bootstrap.vue.components.jumbotrons;
 public import uim.bootstrap.vue.components.lists;

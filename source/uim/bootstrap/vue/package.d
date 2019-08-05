@@ -20,7 +20,7 @@ public import uim.bootstrap.vue.cards;
 public import uim.bootstrap.vue.combobox;
 public import uim.bootstrap.vue.context;
 public import uim.bootstrap.vue.datepicker;
-public import uim.bootstrap.vue.form;
+public import uim.bootstrap.vue.forms;
 public import uim.bootstrap.vue.mixins;
 public import uim.bootstrap.vue.shellbar;
 public import uim.bootstrap.vue.splitbutton;

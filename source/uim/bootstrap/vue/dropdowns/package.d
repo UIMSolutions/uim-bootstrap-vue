@@ -6,7 +6,7 @@ public import uim.bootstrap.vue.dropdowns.dropdown;
 public import uim.bootstrap.vue.dropdowns.header;
 public import uim.bootstrap.vue.dropdowns.link;
 public import uim.bootstrap.vue.dropdowns.menu;
-public import uim.bootstrap.vue.dropdowns.text;
+public import uim.bootstrap.vue.dropdowns.itemtext;
 public import uim.bootstrap.vue.dropdowns.toggle;
 
 /*

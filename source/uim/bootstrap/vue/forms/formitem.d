@@ -1,4 +1,4 @@
-module uim.bootstrap.vue.form.item;
+module uim.bootstrap.vue.forms.item;
 
 public import uim.bootstrap.vue;
 

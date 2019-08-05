@@ -1,4 +1,4 @@
-module uim.bootstrap.vue.form.message;
+module uim.bootstrap.vue.forms.message;
 
 public import uim.bootstrap.vue;
 

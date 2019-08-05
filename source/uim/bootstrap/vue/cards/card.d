@@ -20,7 +20,7 @@ unittest {
   assert(BV5Card.name("test").name == "test");
 }
 
-		_name = "BV5-card";
+/*		_name = "BV5-card";
 		this.props("textColor", "String")
 		.props("bgColor", "String")
 		.props("block", "Boolean")
@@ -32,3 +32,4 @@ unittest {
 				jsIf("this.block", "classes.push('card-block');")~ 
 				jsIf("this.inverse", "classes.push('card-inverse');")~
 				createVueElement("div", ["card"]);
+				*/

@@ -1,4 +1,4 @@
-module uim.bootstrap.vue.form.label;
+module uim.bootstrap.vue.forms.label;
 
 public import uim.bootstrap.vue;
 
