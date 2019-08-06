@@ -8,12 +8,12 @@ class DBV5DropdownLink : DVUEComponent {
     .name("UimDropdownLink")
     .props("active", `{ type: Boolean, default: false }`)
     .props("disabled", `{ type: Boolean, default: false }`)
-    .props("href", `{ type: String, default: "#"`)
+    .props("href", `{ type: String, default: "#" }`)
     .computed("classes()", `return [
     "dropdown-item",
-    this.active ? 'disabled' : '',
+    this.active ? 'active' : '',
     this.disabled ? 'disabled' : ''];`)
-    .template_(`<a :class="this.classes" @click="click" :href="this.href"><slot /></a>`);
+    .template_(`<a :class="this.classes" :href="this.href"><slot /></a>`);
 }
   this(DVUEApp anApp) { this(); _app = anApp; }
 	this(string aName) { this(); _name = aName; }
