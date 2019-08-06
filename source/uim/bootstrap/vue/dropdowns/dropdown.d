@@ -3,9 +3,23 @@
 import uim.bootstrap.vue;
 
 class DBV5Dropdown : DVUEComponent {
-	this() {
-		super();
+  this() {
+    this
+    .name("UimDropdown")
+    .computed("classes()", `return ["dropdown"]`)
+    .template_(`<div :class="this.classes"><slot /></div>`);
+  }
+	this(DVUEApp anApp) { this(); _app = anApp; }
+	this(string aName) { this(); _name = aName; }
+	this(DVUEApp anApp, string aName) { this(anApp); _name = aName; }
+}
+mixin(BV5Shortcut!"Dropdown");
 
+unittest {
+  assert(BV5Dropdown.name == "UimDropdown");
+  assert(BV5Dropdown.name("test").name == "test");
+}
+/*
 		_name = "BV5-dropdown";
 		_props["dropDownId"] = "String";
 		_props["label"] = "String";
@@ -27,10 +41,4 @@ class DBV5Dropdown : DVUEComponent {
 					"content.push(createElement('BV5-dropdown-menu', itemElements));",  
 					"content.push(this.$slots.default);")~
 				createVueElement("div", ["dropdown"]);
-	}
-}
-auto BV5Dropdown() { return new DBV5Dropdown; }
-
-unittest {
-		
-}	
+*/

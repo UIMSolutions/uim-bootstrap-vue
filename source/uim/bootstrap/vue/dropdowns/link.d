@@ -3,21 +3,33 @@
 import uim.bootstrap.vue;
 
 class DBV5DropdownLink : DVUEComponent {
-	this() {
-		super();
-		
-		_name = "BV5-dropdown-link";
+  this() {
+    this    
+    .name("UimDropdownLink")
+    .props("active", `{ type: Boolean, default: false }`)
+    .props("disabled", `{ type: Boolean, default: false }`)
+    .props("href", `{ type: String, default: "#"`)
+    .computed("classes()", `return [
+    "dropdown-item",
+    this.active ? 'disabled' : '',
+    this.disabled ? 'disabled' : ''];`)
+    .template_(`<a :class="this.classes" @click="click" :href="this.href"><slot /></a>`);
+}
+  this(DVUEApp anApp) { this(); _app = anApp; }
+	this(string aName) { this(); _name = aName; }
+	this(DVUEApp anApp, string aName) { this(anApp); _name = aName; }
+}
+mixin(BV5Shortcut!"DropdownLink");
+
+unittest {
+  assert(BV5DropdownLink.name == "UimDropdownLink");
+  assert(BV5DropdownLink.name("test").name == "test");
+}
+/*		_name = "BV5-dropdown-link";
 		_props["link"] = "String";
 		_props["label"] = "String";
 		_render = initVueVars~
 				jsIf("this.link", "attributes.href=this.link;")~
 				jsIfElse("this.label", "content.push(this.label)", `content=this.$slots.default;`)~ 
 				createVueElement("a", ["dropdown-item"]);
-	}
-}
-auto BV5DropdownLink() { return new DBV5DropdownLink; }
-
-unittest {
-		
-	assert(BV5DropdownLink.name == "BV5-dropdown-item");
-}	
+*/

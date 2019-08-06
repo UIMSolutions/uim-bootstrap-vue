@@ -25,8 +25,11 @@ class DBV5Button : DVUEComponent {
     this.size !== "normal" ? 'btn-'+this.size : ""];`)
     .template_(`<button :type="this.type" :class="this.classes" @click="click" :aria-pressed="this.active"><slot /></button>`);
   }
+  this(DVUEApp anApp) { this(); _app = anApp; }
+	this(string aName) { this(); _name = aName; }
+	this(DVUEApp anApp, string aName) { this(anApp); _name = aName; }
 }
-auto BV5Button() { return new DBV5Button; }
+mixin(BV5Shortcut!"Button");
 unittest {    
   assert(BV5Button.name == "UimButton");
   assert(BV5Button.name("test").name == "test");

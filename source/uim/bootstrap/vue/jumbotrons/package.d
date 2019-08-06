@@ -2,7 +2,8 @@
 
 public import uim.bootstrap.vue.jumbotrons.jumbotron;
 
-string vueGlobalRegisterJumbotrons() {
+/* string vueGlobalRegisterJumbotrons() {
 	return 
 			BV5Jumbotron.globalRegistration;
 }
+*/

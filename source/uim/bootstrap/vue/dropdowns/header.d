@@ -16,8 +16,8 @@ class DBV5DropdownHeader : DVUEComponent {
 mixin(BV5Shortcut!"DropdownHeader ");
 
 unittest {
-  assert(BV5DropdownDivider.name == "UimDropdownHeader");
-  assert(BV5DropdownDivider.name("test").name == "test");
+  assert(BV5DropdownHeader.name == "UimDropdownHeader");
+  assert(BV5DropdownHeader.name("test").name == "test");
 }
 
 /*		_props["label"] = "String";

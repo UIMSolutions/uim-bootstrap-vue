@@ -2,10 +2,9 @@ module uim.bootstrap.vue.buttons.link;
 
 public import uim.bootstrap.vue;
 
-// Buttons allow users to perform actions.
-static this() {
-  import uim.bootstrap.vue.buttons;
-  vueButtonLink = VUEComponent
+class DBV5ButtonLink : DVUEComponent {
+  this() {
+    this    
     .name("UimButtonLink")
     .props("block", `{ type: Boolean, default: false }`)
     .props("color", `{ type: String, default: "none", validator: value => ["none","primary", "secondary", "success", "danger", "warning", "info", "light", "dark", "link"].indexOf(value) >= 0 }`)
@@ -24,5 +23,13 @@ static this() {
     this.size !== "normal" ? 'btn-'+this.size : ""];`)
     .template_(`<a :role="this.type" :class="this.classes" @click="click" :href="this.href"><slot /></a>`);
 }
-unittest {    
+  this(DVUEApp anApp) { this(); _app = anApp; }
+	this(string aName) { this(); _name = aName; }
+	this(DVUEApp anApp, string aName) { this(anApp); _name = aName; }
+}
+mixin(BV5Shortcut!"ButtonLink");
+
+unittest {
+  assert(BV5ButtonLink.name == "UimButtonLink");
+  assert(BV5ButtonLink.name("test").name == "test");
 }

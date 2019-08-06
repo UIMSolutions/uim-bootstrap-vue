@@ -14,8 +14,11 @@ class DBV5ButtonGroup : DVUEComponent {
     this.size !== "normal" ? 'btn-group-'+this.size : ""];`)
     .template_(`<div :class="this.classes" role="group" aria-label="Basic example"><slot /></div>`); 
   }
+  this(DVUEApp anApp) { this(); _app = anApp; }
+	this(string aName) { this(); _name = aName; }
+	this(DVUEApp anApp, string aName) { this(anApp); _name = aName; }
 }
-auto BV5ButtonGroup() { return new DBV5ButtonGroup; }
+mixin(BV5Shortcut!"ButtonGroup");
 unittest {    
   assert(BV5ButtonGroup.name == "UimButtonGroup");
   assert(BV5ButtonGroup.name("test").name == "test");

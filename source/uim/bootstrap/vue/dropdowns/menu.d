@@ -4,8 +4,26 @@ import uim.bootstrap.vue;
 
 class DBV5DropdownMenu : DVUEComponent {
 	this() {
-		super();
-		
+    this
+    .name("UimDropdownMenu")
+    .props("right", `{ type: Boolean }`)
+    .computed("classes()", `return [
+		"dropdown-menu",
+		this.right ? 'dropdown-menu-right' : ''
+		]`)
+    .template_(`<div :class="this.classes"><slot /></div>`);
+  }
+	this(DVUEApp anApp) { this(); _app = anApp; }
+	this(string aName) { this(); _name = aName; }
+	this(DVUEApp anApp, string aName) { this(anApp); _name = aName; }
+}
+mixin(BV5Shortcut!"DropdownMenu ");
+
+unittest {
+  assert(BV5DropdownMenu.name == "UimDropdownMenu");
+  assert(BV5DropdownMenu.name("test").name == "test");
+}
+/*		
 		_name = "BV5-dropdown-menu";
 		_props["label"] = "String";
 		_props["position"] = "String";
@@ -16,9 +34,4 @@ class DBV5DropdownMenu : DVUEComponent {
 				createVueElement("div", ["dropdown-menu"]);
 	}
 }
-auto BV5DropdownMenu() { return new DBV5DropdownMenu; }
-
-unittest {
-		
-	assert(BV5DropdownMenu.name == "BV5-dropdown-menu");
-}	
+*/
