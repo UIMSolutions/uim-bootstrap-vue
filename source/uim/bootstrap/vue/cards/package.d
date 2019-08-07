@@ -15,6 +15,14 @@ public import uim.bootstrap.vue.cards.text;
 public import uim.bootstrap.vue.cards.subtitle;
 public import uim.bootstrap.vue.cards.title;
 
-auto BV5CardAll = [
+/*
+DVUEComponent[] BV5CardAll = [
+    BV5Card, BV5CardBody, BV5CardColumns, BV5CardDeck, BV5CardFooter, BV5CardHeader, BV5CardGroup, BV5CardImage, BV5CardLink, BV5CardText, BV5CardTitle, BV5CardSubtitle
+];*/
+
+DVUEComponent[] BV5CardAll;
+static this() {
+BV5CardAll = [
     BV5Card, BV5CardBody, BV5CardColumns, BV5CardDeck, BV5CardFooter, BV5CardHeader, BV5CardGroup, BV5CardImage, BV5CardLink, BV5CardText, BV5CardTitle, BV5CardSubtitle
 ];
+}

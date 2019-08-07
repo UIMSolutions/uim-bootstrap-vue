@@ -25,6 +25,8 @@ public import uim.bootstrap.vue.forms;
 public import uim.bootstrap.vue.jumbotrons;
 public import uim.bootstrap.vue.modals;
 public import uim.bootstrap.vue.mixins;
+public import uim.bootstrap.vue.navbars;
+public import uim.bootstrap.vue.navs;
 public import uim.bootstrap.vue.shellbar;
 public import uim.bootstrap.vue.splitbutton;
 public import uim.bootstrap.vue.tile;

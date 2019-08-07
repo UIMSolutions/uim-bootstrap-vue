@@ -8,7 +8,7 @@ class DBV5CardImage : DVUEComponent {
     .name("UimCardImage")
     .props("position", `{ type: String, default: "top", validator: value => ["top","bottom"].indexOf(value) >= 0 }`)
     .computed("classes()", `return [
-      this.position === "top" ? 'card-img-top' : 'card-img-bottom',
+      this.position === "top" ? 'card-img-top' : 'card-img-bottom'
       ]`)
     .template_(`<img :class="this.classes">`);
   }
