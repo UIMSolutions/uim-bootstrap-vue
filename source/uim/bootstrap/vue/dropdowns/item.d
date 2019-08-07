@@ -1,11 +1,11 @@
-﻿module uim.bootstrap.vue.dropdowns.button;
+﻿module uim.bootstrap.vue.dropdowns.item;
 
 import uim.bootstrap.vue;
 
-class DBV5DropdownButton : DVUEComponent {
+class DBV5DropdownItem : DVUEComponent {
   this() {
     this
-    .name("UimDropdownButton")    
+    .name("UimDropdownItem")    
     .props("block", `{ type: Boolean, default: false }`)
     .props("color", `{ type: String, default: "none", validator: value => ["none","primary", "secondary", "success", "danger", "warning", "info", "light", "dark", "link"].indexOf(value) >= 0 }`)
     .props("active", `{ type: Boolean, default: false }`)
@@ -26,11 +26,11 @@ class DBV5DropdownButton : DVUEComponent {
 	this(string aName) { this(); _name = aName; }
 	this(DVUEApp anApp, string aName) { this(anApp); _name = aName; }
 }
-mixin(BV5Shortcut!"DropdownButton");
+mixin(BV5Shortcut!"DropdownItem");
 
 unittest {
-  assert(BV5DropdownButton.name == "UimDropdownButton");
-  assert(BV5DropdownButton.name("test").name == "test");
+  assert(BV5DropdownItem.name == "UimDropdownItem");
+  assert(BV5DropdownItem.name("test").name == "test");
 }
 		/*
 		_name = "BV5-dropdown-button";

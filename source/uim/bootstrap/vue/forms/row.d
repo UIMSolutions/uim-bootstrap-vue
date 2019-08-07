@@ -1,23 +1,23 @@
-module uim.bootstrap.vue.forms.group;
+module uim.bootstrap.vue.forms.row;
 
 public import uim.bootstrap.vue;
 
-class DBV5FormGroup : DVUEComponent {
+class DBV5FormRow : DVUEComponent {
   this() {
       this
-      .name("UimFormGroup")
-      .computed("classes()", `return ["form-group"];`)
+      .name("UimFormRow")
+      .computed("classes()", `return ["form-row"];`)
       .template_(`<div :class="this.classes"><slot /></div>`);
     }
     this(DVUEApp anApp) { this(); _app = anApp; }
     this(string aName) { this(); _name = aName; }
     this(DVUEApp anApp, string aName) { this(anApp); _name = aName; }
 }
-mixin(BV5Shortcut!"FormGroup");
+mixin(BV5Shortcut!"FormRow");
 
 unittest {
-  assert(BV5FormGroup.name == "UimFormGroup");
-  assert(BV5FormGroup.name("test").name == "test");
+  assert(BV5FormRow.name == "UimFormRow");
+  assert(BV5FormRow.name("test").name == "test");
 }
 
 /*

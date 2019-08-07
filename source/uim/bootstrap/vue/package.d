@@ -13,6 +13,7 @@ public import uim.bootstrap.vue.layout;
 
 public import uim.bootstrap.vue.alerts;
 public import uim.bootstrap.vue.badges;
+public import uim.bootstrap.vue.blockquotes;
 public import uim.bootstrap.vue.breadcrumbs;
 public import uim.bootstrap.vue.buttons;
 public import uim.bootstrap.vue.cards;
@@ -22,6 +23,7 @@ public import uim.bootstrap.vue.datepicker;
 public import uim.bootstrap.vue.dropdowns;
 public import uim.bootstrap.vue.forms;
 public import uim.bootstrap.vue.jumbotrons;
+public import uim.bootstrap.vue.modals;
 public import uim.bootstrap.vue.mixins;
 public import uim.bootstrap.vue.shellbar;
 public import uim.bootstrap.vue.splitbutton;

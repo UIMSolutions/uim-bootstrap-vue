@@ -1,9 +1,9 @@
 ﻿module uim.bootstrap.vue.dropdowns;
 
-public import uim.bootstrap.vue.dropdowns.button;
 public import uim.bootstrap.vue.dropdowns.divider;
 public import uim.bootstrap.vue.dropdowns.dropdown;
 public import uim.bootstrap.vue.dropdowns.header;
+public import uim.bootstrap.vue.dropdowns.item;
 public import uim.bootstrap.vue.dropdowns.link;
 public import uim.bootstrap.vue.dropdowns.menu;
 public import uim.bootstrap.vue.dropdowns.itemtext;

@@ -8,7 +8,7 @@ public import uim.bootstrap.vue.modals.title;
 public import uim.bootstrap.vue.modals.footer;
 public import uim.bootstrap.vue.modals.body_;
 
-string vueGlobalRegisterModals() {
+/*string vueGlobalRegisterModals() {
 	return 
 		BV5ModalTitle.globalRegistration~
 			BV5ModalContent.globalRegistration~
@@ -17,4 +17,4 @@ string vueGlobalRegisterModals() {
 			BV5ModalFooter.globalRegistration~
 			BV5ModalBody.globalRegistration~
 			BV5Modal.globalRegistration;
-}
+}*/
