@@ -27,9 +27,12 @@ public import uim.bootstrap.vue.modals;
 public import uim.bootstrap.vue.mixins;
 public import uim.bootstrap.vue.navbars;
 public import uim.bootstrap.vue.navs;
+public import uim.bootstrap.vue.paginations;
+public import uim.bootstrap.vue.popovers;
 public import uim.bootstrap.vue.shellbar;
 public import uim.bootstrap.vue.splitbutton;
 public import uim.bootstrap.vue.tile;
+public import uim.bootstrap.vue.tooltips;
 
 DVUEComponent vueActionBar;
 DVUEComponent vueBadge;
