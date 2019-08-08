@@ -22,6 +22,8 @@ public import uim.bootstrap.vue.context;
 public import uim.bootstrap.vue.datepicker;
 public import uim.bootstrap.vue.dropdowns;
 public import uim.bootstrap.vue.forms;
+public import uim.bootstrap.vue.inputs;
+public import uim.bootstrap.vue.inputgroups;
 public import uim.bootstrap.vue.jumbotrons;
 public import uim.bootstrap.vue.modals;
 public import uim.bootstrap.vue.mixins;
@@ -33,6 +35,40 @@ public import uim.bootstrap.vue.shellbar;
 public import uim.bootstrap.vue.splitbutton;
 public import uim.bootstrap.vue.tile;
 public import uim.bootstrap.vue.tooltips;
+
+DVUEComponent[] BV5CardAll;
+DVUEComponent[] BV5InputAll;
+DVUEComponent[] BV5InputGroupAll;
+DVUEComponent[] BV5All;
+static this() {
+	BV5CardAll = [
+		BV5Card, BV5CardBody, BV5CardColumns, BV5CardDeck, BV5CardFooter, BV5CardHeader, BV5CardGroup, BV5CardImage, BV5CardLink, BV5CardText, BV5CardTitle, BV5CardSubtitle
+	];
+
+	BV5InputAll = [
+		BV5InputButton, BV5InputCheckbox,
+		BV5InputColor, BV5InputDate,
+		BV5InputDatetime, BV5InputEmail,
+		BV5InputFile, BV5InputGroup,
+		BV5InputHidden, BV5InputImage,
+		BV5InputMonth, BV5InputNumber,
+		BV5InputPassword, BV5InputRadio,
+		BV5InputRange, BV5InputReset,
+		BV5InputSearch, BV5InputSubmit,
+		BV5InputTel, BV5InputText,
+		BV5InputTime, BV5InputUrl,
+		BV5InputWeek
+	];
+
+	BV5InputGroupAll = [
+		BV5InputGroup,
+		BV5InputGroupAppend,
+		BV5InputGroupPrepend,
+		BV5InputGroupText
+	];
+
+	BV5All = BV5CardAll~BV5InputAll~BV5InputGroupAll;
+}
 
 DVUEComponent vueActionBar;
 DVUEComponent vueBadge;
