@@ -7,7 +7,7 @@ class DBV5InputGroupAppend : DVUEComponent {
 		this
 		.name("UimInputGroupAppend")
 		.computed("classes()", `return ['input-group-append'];`)
-    	.template_(`<div :class="this.classes"></div>`);	
+    	.template_(`<div :class="this.classes"><slot /></div>`);	
 	}
 	this(DVUEApp anApp) { this(); _app = anApp; }
 	this(string aName) { this(); _name = aName; }

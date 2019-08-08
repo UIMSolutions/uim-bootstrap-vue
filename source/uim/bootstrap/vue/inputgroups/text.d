@@ -7,7 +7,7 @@ class DBV5InputGroupText : DVUEComponent {
 		this
 		.name("UimInputGroupText")
 		.computed("classes()", `return ['input-group-text'];`)
-    	.template_(`<span :class="this.classes"></span>`);	
+    	.template_(`<span :class="this.classes"><slot /></span>`);	
 	}
 	this(DVUEApp anApp) { this(); _app = anApp; }
 	this(string aName) { this(); _name = aName; }

@@ -39,6 +39,8 @@ public import uim.bootstrap.vue.tooltips;
 DVUEComponent[] BV5CardAll;
 DVUEComponent[] BV5InputAll;
 DVUEComponent[] BV5InputGroupAll;
+DVUEComponent[] BV5NavbarAll;
+DVUEComponent[] BV5NavAll;
 DVUEComponent[] BV5All;
 static this() {
 	BV5CardAll = [
@@ -49,7 +51,7 @@ static this() {
 		BV5InputButton, BV5InputCheckbox,
 		BV5InputColor, BV5InputDate,
 		BV5InputDatetime, BV5InputEmail,
-		BV5InputFile, BV5InputGroup,
+		BV5InputFile,
 		BV5InputHidden, BV5InputImage,
 		BV5InputMonth, BV5InputNumber,
 		BV5InputPassword, BV5InputRadio,
@@ -67,7 +69,17 @@ static this() {
 		BV5InputGroupText
 	];
 
-	BV5All = BV5CardAll~BV5InputAll~BV5InputGroupAll;
+	BV5NavbarAll = [
+		BV5Navbar, BV5NavbarBrand, BV5NavbarLink, BV5NavbarToggler, BV5NavbarTogglerIcon
+	];
+
+	BV5NavAll = [
+		BV5Nav, BV5NavList, BV5NavLink, BV5NavItem
+	];
+
+	];
+
+	BV5All = BV5CardAll~BV5InputAll~BV5InputGroupAll~BV5NavbarAll~BV5NavAll;
 }
 
 DVUEComponent vueActionBar;
