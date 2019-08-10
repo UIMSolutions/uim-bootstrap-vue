@@ -25,6 +25,7 @@ public import uim.bootstrap.vue.forms;
 public import uim.bootstrap.vue.inputs;
 public import uim.bootstrap.vue.inputgroups;
 public import uim.bootstrap.vue.jumbotrons;
+public import uim.bootstrap.vue.listgroups;
 public import uim.bootstrap.vue.modals;
 public import uim.bootstrap.vue.mixins;
 public import uim.bootstrap.vue.navbars;
@@ -33,14 +34,17 @@ public import uim.bootstrap.vue.paginations;
 public import uim.bootstrap.vue.popovers;
 public import uim.bootstrap.vue.shellbar;
 public import uim.bootstrap.vue.splitbutton;
+public import uim.bootstrap.vue.tables;
 public import uim.bootstrap.vue.tile;
 public import uim.bootstrap.vue.tooltips;
 
 DVUEComponent[] BV5CardAll;
 DVUEComponent[] BV5InputAll;
 DVUEComponent[] BV5InputGroupAll;
+DVUEComponent[] BV5ListGroupAll;
 DVUEComponent[] BV5NavbarAll;
 DVUEComponent[] BV5NavAll;
+DVUEComponent[] BV5TableAll;
 DVUEComponent[] BV5All;
 static this() {
 	BV5CardAll = [
@@ -69,17 +73,21 @@ static this() {
 		BV5InputGroupText
 	];
 
+	BV5ListGroupAll = [ BV5ListGroup,BV5ListGroupLinks,BV5ListGroupItem, ];
+
 	BV5NavbarAll = [
-		BV5Navbar, BV5NavbarBrand, BV5NavbarLink, BV5NavbarToggler, BV5NavbarTogglerIcon
+		BV5Navbar, BV5NavbarBrand, BV5NavbarToggler, BV5NavbarTogglerIcon
 	];
 
 	BV5NavAll = [
 		BV5Nav, BV5NavList, BV5NavLink, BV5NavItem
 	];
 
+	BV5TableAll = [
+		BV5Table, BV5TableBody, BV5TableRow, BV5TableCell, BV5TableHeader, BV5TableHead
 	];
 
-	BV5All = BV5CardAll~BV5InputAll~BV5InputGroupAll~BV5NavbarAll~BV5NavAll;
+	BV5All = BV5CardAll~BV5InputAll~BV5InputGroupAll~BV5ListGroupAll~BV5NavbarAll~BV5NavAll;
 }
 
 DVUEComponent vueActionBar;

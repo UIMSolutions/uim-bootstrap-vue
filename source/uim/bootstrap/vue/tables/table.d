@@ -4,19 +4,22 @@ import uim.bootstrap.vue;
 
 class DBV5Table : DVUEComponent {
 	this() {
-		super();
-		
-		_name = "BV5-table";
-		_props["size"] = "String";
-		_props["light"] = "Boolean";
-		_props["dark"] = "Boolean";
-		_props["striped"] = "Boolean";
-		_props["bordered"] = "Boolean";
-		_props["cols"] = "Array";
-		_props["rows"] = "Array";
-		_props["headcol"] = "Number";
-
-		_render = initVueVars~
+		this
+		.name("UimTable")
+	    .props("size", `{ type: String, default: "normal", validator: value => ["normal", "lg", "sm"].indexOf(value) >= 0 }`)
+		.props("light", "{ type: Boolean, default: false }")
+		.props("dark", "{ type: Boolean, default: false }")
+		.props("striped", "{ type: Boolean, default: false }")
+		.props("bordered", "{ type: Boolean, default: false }")
+		.props("cols", "{ type: Array, default: [] }")
+		.props("rows", "{ type: Array, default: [] }")
+		.props("headcol", "{ type: Number }")
+		.computed("classes()", `return ['table',
+	    this.size !== "normal" ? 'table-'+this.size : ""
+		];`)
+		.template_(`<table :class="this.classes"><slot /></table>`);
+		/*
+		.render(initVueVars~
 			`if (this.cols) {`~
 				`var colElements=[];`~
 				`for (let col of this.cols) {`~
@@ -46,10 +49,16 @@ class DBV5Table : DVUEComponent {
 				jsIf("this.striped", "classes.push('table-striped');")~
 				jsIf("this.bordered", "classes.push('table-bordered');")~
 				createVueElement("table", ["table"]);
+		);*/
 	}
+	this(DVUEApp anApp) { this(); _app = anApp; }
+	this(string aName) { this(); _name = aName; }
+	this(DVUEApp anApp, string aName) { this(anApp); _name = aName; }
 }
-auto BV5Table() { return new DBV5Table; }
+mixin(BV5Shortcut!"Table");
 
 unittest {
-		
+  assert(BV5Table.name == "UimTable");
+  assert(BV5Table.name("test").name == "test");
 }	
+
