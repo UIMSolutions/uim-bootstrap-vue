@@ -2,6 +2,7 @@ module uim.bootstrap.vue.mixins.withtargetlocation;
 
 public import uim.bootstrap.vue;
 
+@safe: 
 static this() {
     import uim.bootstrap.vue.mixins;
     vueWithTargetLocation = VUEMixin.content(`

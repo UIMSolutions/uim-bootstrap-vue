@@ -2,6 +2,7 @@ module uim.bootstrap.vue.identifier;
 
 public import uim.bootstrap.vue;
 
+@safe: 
 static this() {
     import uim.bootstrap.vue;
     vueIdentifier = VUEComponent

@@ -3,6 +3,7 @@ module uim.bootstrap.vue.calendar;
 public import uim.bootstrap.vue;
 
 
+@safe: 
 static this() {
     uim.bootstrap.vue.
     vueCalendar = VUEComponent.

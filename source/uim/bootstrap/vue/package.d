@@ -3,7 +3,6 @@
 // libraries
 public import uim.core;
 public import uim.oop;
-public import uim.web;
 public import uim.html;
 public import uim.vue;
 public import uim.bootstrap;
@@ -46,6 +45,7 @@ DVUEComponent[] BV5NavbarAll;
 DVUEComponent[] BV5NavAll;
 DVUEComponent[] BV5TableAll;
 DVUEComponent[] BV5All;
+@safe: 
 static this() {
 	BV5CardAll = [
 		BV5Card, BV5CardBody, BV5CardColumns, BV5CardDeck, BV5CardFooter, BV5CardHeader, BV5CardGroup, BV5CardImage, BV5CardLink, BV5CardText, BV5CardTitle, BV5CardSubtitle

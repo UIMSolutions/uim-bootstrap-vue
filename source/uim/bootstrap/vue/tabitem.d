@@ -2,6 +2,7 @@ module uim.bootstrap.vue.tabitem;
 
 public import uim.bootstrap.vue;
 
+@safe: 
 static this() {
     import uim.bootstrap.vue;
     vueTabItem = VUEComponent.

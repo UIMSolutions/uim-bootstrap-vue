@@ -2,6 +2,7 @@ module uim.bootstrap.vue.sidenav.group;
 
 public import uim.bootstrap.vue;
 
+@safe: 
 static this() {
     import uim.bootstrap.vue.sidenav;
     vueSideNavGroup = VUEComponent

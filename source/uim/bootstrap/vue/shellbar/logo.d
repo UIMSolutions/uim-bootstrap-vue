@@ -2,6 +2,7 @@ module uim.bootstrap.vue.shellbar.logo;
 
 public import uim.bootstrap.vue;
 
+@safe: 
 static this() {
     import uim.bootstrap.vue;
     vueShellBarLogo = VUEComponent.

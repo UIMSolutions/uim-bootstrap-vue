@@ -2,6 +2,7 @@ module uim.bootstrap.vue.mixins.focustrap;
 
 public import uim.bootstrap.vue;
 
+@safe: 
 static this() {
     import uim.bootstrap.vue.mixins;
     vueFocusTrap = VUEMixin.content(`import createFocusTrap from "focus-trap";

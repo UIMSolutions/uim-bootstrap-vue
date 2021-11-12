@@ -2,6 +2,7 @@ module uim.bootstrap.vue.shellbar.productmenu;
 
 public import uim.bootstrap.vue;
 
+@safe: 
 static this() {
     import uim.bootstrap.vue;
     vueShellBarProductMenu = VUEComponent.

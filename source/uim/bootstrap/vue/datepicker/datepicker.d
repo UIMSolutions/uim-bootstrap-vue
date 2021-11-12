@@ -2,6 +2,7 @@ module uim.bootstrap.vue.datepicker.datepicker;
 
 public import uim.bootstrap.vue;
 
+@safe: 
 static this() {
     uim.bootstrap.vue.
     vueDatePicker = VUEComponent

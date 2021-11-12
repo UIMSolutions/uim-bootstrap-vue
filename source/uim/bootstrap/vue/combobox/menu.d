@@ -2,6 +2,7 @@ module uim.bootstrap.vue.combobox.menu;
 
 public import uim.bootstrap.vue;
 
+@safe: 
 static this() {
     uim.bootstrap.vue.
     vueComboboxMenu = VUEComponent.

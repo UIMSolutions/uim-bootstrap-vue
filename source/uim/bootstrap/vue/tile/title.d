@@ -3,6 +3,7 @@ module uim.bootstrap.vue.tile.title;
 public import uim.bootstrap.vue;
 
 // The title of a tile. `fd-tile-title` should be a child of `fd-tile-content`.
+@safe: 
 static this() {
     import uim.bootstrap.vue.tile;
     vueTileTitle = VUEComponent

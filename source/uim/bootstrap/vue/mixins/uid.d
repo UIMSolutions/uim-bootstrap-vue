@@ -2,6 +2,7 @@ module uim.bootstrap.vue.mixins.uid;
 
 public import uim.bootstrap.vue;
 
+@safe: 
 static this() {
     import uim.bootstrap.vue.mixins;
     vueUid = VUEMixin.content(`

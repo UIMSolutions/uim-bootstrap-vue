@@ -3,6 +3,7 @@ module uim.bootstrap.vue.combobox.combobox;
 public import uim.bootstrap.vue;
 
 // A typical combobox component
+@safe: 
 static this() {
     uim.bootstrap.vue.
     vueCombobox = VUEComponent.

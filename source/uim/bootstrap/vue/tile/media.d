@@ -2,6 +2,7 @@ module uim.bootstrap.vue.tile.media;
 
 public import uim.bootstrap.vue;
 
+@safe: 
 static this() {
     import uim.bootstrap.vue.tile;
     vueTileMedia = VUEComponent

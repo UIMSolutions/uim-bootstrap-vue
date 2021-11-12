@@ -3,6 +3,7 @@ module uim.bootstrap.vue.tile.tile;
 public import uim.bootstrap.vue;
 
 // A tile component can be used to display information in a simple container format. This component is ideal for displaying collection data when a grid or list layout is preferred. See `fd-tile-grid` and `fd-virtualized-list`.
+@safe: 
 static this() {
     import uim.bootstrap.vue.tile;
     vueTile = VUEComponent
