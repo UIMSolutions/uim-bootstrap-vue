@@ -6,7 +6,7 @@ public import uim.oop;
 public import uim.html;
 public import uim.vue;
 public import uim.bootstrap;
-public import uim.javascript;
+public import langs.javascript;
 
 public import uim.bootstrap.vue.layout;
 
