@@ -1,11 +1,13 @@
 ﻿module uim.bootstrap.vue.tables;
 
-public import uim.bootstrap.vue.tables.body_;
-public import uim.bootstrap.vue.tables.cell;
-public import uim.bootstrap.vue.tables.head;
-public import uim.bootstrap.vue.tables.header;
-public import uim.bootstrap.vue.tables.row;
-public import uim.bootstrap.vue.tables.table;
+public {
+	import uim.bootstrap.vue.tables.body_;
+	import uim.bootstrap.vue.tables.cell;
+	import uim.bootstrap.vue.tables.head;
+	import uim.bootstrap.vue.tables.header;
+	import uim.bootstrap.vue.tables.row;
+	import uim.bootstrap.vue.tables.table;
+}
 
 string vueGlobalRegisterTables() {
 	return 

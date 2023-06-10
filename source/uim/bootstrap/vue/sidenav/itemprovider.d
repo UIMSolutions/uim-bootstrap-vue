@@ -1,8 +1,8 @@
 module uim.bootstrap.vue.sidenav.itemprovider;
 
-public import uim.bootstrap.vue;
-
+import uim.bootstrap.vue;
 @safe: 
+
 static this() {
     import uim.bootstrap.vue.sidenav;
     vueSideNavItemProvider = VUEComponent
