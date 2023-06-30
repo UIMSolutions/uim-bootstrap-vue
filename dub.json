@@ -2,7 +2,7 @@
 	"name": "uim-bootstrap-vue",
 	"description": "D Library for HTML5",
 	"authors": ["UI Manufaktur Team"],
-	"copyright": "Copyright © 2017-2022, UI Manufaktur UG",
+	"copyright": "Copyright © 2015-2023, Ozan Nurettin Süel",
 	"license": "Apache-2.0",
 	"targetType": "library",
 	"dependencies": {
