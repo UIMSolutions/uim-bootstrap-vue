@@ -132,22 +132,23 @@ string createVueElement(string tag) {
 string createVueElement(string tag, string[] classes) {
 	return createVueElement(tag, classes, null, null);
 }
-string createVueElement(string tag, string[string] attributes) {
+string createVueElement(string tag, STRINGAA attributes) {
 	return createVueElement(tag, null, attributes, null);
 }
-string createVueElement(string tag, string[] classes, string[string] attributes) {
+string createVueElement(string tag, string[] classes, STRINGAA attributes) {
 	return createVueElement(tag, classes, attributes, null);
 }
-string createVueElement(string tag, string[] classes, string[string] attributes, string[string] styles) {
+string createVueElement(string tag, string[] classes, STRINGAA attributes, STRINGAA styles) {
 	string results;
 	if (tag) results ~=`tag='`~tag~`';`;
-	foreach(c; classes) results~=`classes.push('`~c~`');`;
+	classes.each!(c => results ~= `classes.push('`~c~`');`);
 	foreach(k,v; attributes) results~=`attributes.`~k~`='`~v~`';`;
 	foreach(k,v; styles) results~=`styles.`~k~`='`~v~`';`;
 	results ~= jsIf("classes.length > 0", "options.class=classes;");
 	results ~= jsIf("Object.keys(attributes).length > 0", "options.attrs=attributes;");
 	results ~= jsIf("Object.keys(styles).length > 0", "options.style=styles;");
 	results ~= `return createElement(tag, options, content);`;
+	
 	return results;
 }
 
